@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta -->
+    <title>Executive Sedan Service Worldwide: Mercedes S-Class Chauffeur</title>
+    <meta name="description" content="Premium executive sedan service. Nebo Rides provides Mercedes-Benz S-Class and BMW 7-Series chauffeurs for corporate travel and airport transfers in 500+ cities.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Global Styles -->
+    <link rel="stylesheet" href="global-styles.css">
+    <link rel="stylesheet" href="faq-section.css">
+
+    <!-- Executive Sedan Advantages Section Styles -->
+    <style>
+        /* ========================================
+           SERVICE ADVANTAGES
+           ======================================== */
+        .nr-services-advantages {
+            padding: 80px 0;
+            background: var(--nr-ivory);
+        }
+
+        .nr-services-advantages__container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .nr-services-advantages__header {
+            text-align: center;
+            max-width: 720px;
+            margin: 0 auto 48px;
+        }
+
+        .nr-services-advantages__heading {
+            font-size: clamp(28px, 4vw, 36px);
+            font-weight: 700;
+            color: var(--nr-navy);
+            margin: 0 0 16px;
+            line-height: 1.2;
+        }
+
+        .nr-services-advantages__intro {
+            font-size: 16px;
+            color: var(--nr-body);
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .nr-services-advantages__grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 24px;
+        }
+
+        @media (min-width: 768px) {
+            .nr-services-advantages__grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .nr-services-advantages__card {
+            background: var(--nr-white);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .nr-services-advantages__card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .nr-services-advantages__card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--nr-navy);
+            border-radius: 12px 12px 0 0;
+        }
+
+        .nr-services-advantages__card-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--nr-ivory);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .nr-services-advantages__card-icon svg {
+            width: 24px;
+            height: 24px;
+            stroke: var(--nr-navy);
+        }
+
+        .nr-services-advantages__card-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--nr-navy);
+            margin: 0 0 12px;
+        }
+
+        .nr-services-advantages__card-desc {
+            font-size: 14px;
+            color: var(--nr-body);
+            line-height: 1.6;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="nr-page">
+
+    <!-- ========================================
+         HERO SECTION (Chauffeur Hero)
+         ======================================== -->
+    <section class="nr-chauffeur-hero">
+        <img class="nr-chauffeur-hero__bg" src="https://wordpress-1571592-6118951.cloudwaysapps.com/wp-content/uploads/2026/01/Worldwide-Airport-Transfers.png" alt="Executive sedan service with Mercedes-Benz S-Class chauffeur" loading="eager">
+        <div class="nr-chauffeur-hero__border"></div>
+
+        <div class="nr-chauffeur-hero__container">
+            <div class="nr-chauffeur-hero__badge">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                <span>Elite Corporate Mobility</span>
+            </div>
+
+            <h1 class="nr-chauffeur-hero__heading">
+                Executive Sedan Service: <span class="nr-chauffeur-hero__heading-accent">The Standard of Business Class</span>
+            </h1>
+
+            <p class="nr-chauffeur-hero__sub">
+                Understated elegance. Nebo Rides provides the world's finest executive sedans—Mercedes S-Class and BMW 7-Series—for those who value discretion, comfort, and engineering excellence.
+            </p>
+
+            <div class="nr-chauffeur-hero__cta">
+                <a href="#book" class="nr-chauffeur-hero__btn nr-chauffeur-hero__btn--primary">
+                    Book Sedan
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#fleet" class="nr-chauffeur-hero__btn nr-chauffeur-hero__btn--secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+                    View Specifications
+                </a>
+            </div>
+
+            <div class="nr-chauffeur-hero__trust">
+                <div class="nr-chauffeur-hero__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+                    <span>S-Class & 7-Series</span>
+                </div>
+                <div class="nr-chauffeur-hero__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    <span>Privacy Tints</span>
+                </div>
+                <div class="nr-chauffeur-hero__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    <span>Air Suspension</span>
+                </div>
+                <div class="nr-chauffeur-hero__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <span>500+ Cities</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         TABLE OF CONTENTS
+         ======================================== -->
+    <nav class="nr-toc" aria-label="Page contents">
+        <div class="nr-container">
+            <ul class="nr-toc__list">
+                <li class="nr-toc__item">
+                    <a href="#summary" class="nr-toc__link">Executive Summary</a>
+                </li>
+                <li class="nr-toc__item">
+                    <a href="#protocol" class="nr-toc__link">The Sedan Protocol</a>
+                </li>
+                <li class="nr-toc__item">
+                    <a href="#coordination" class="nr-toc__link">Logistics & Coordination</a>
+                </li>
+                <li class="nr-toc__item">
+                    <a href="#fleet" class="nr-toc__link">Sedan Fleet</a>
+                </li>
+                <li class="nr-toc__item">
+                    <a href="#geo" class="nr-toc__link">Global Availability</a>
+                </li>
+                <li class="nr-toc__item">
+                    <a href="#benefits" class="nr-toc__link">Service Advantages</a>
+                </li>
+                <li class="nr-toc__item">
+                    <a href="#faq" class="nr-toc__link">FAQ</a>
+                </li>
+                <li class="nr-toc__item">
+                    <a href="#related-services" class="nr-toc__link">Related Services</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ========================================
+         EXECUTIVE SUMMARY (Trust Card)
+         ======================================== -->
+    <section class="nr-services-pillars" id="summary" aria-label="Executive Summary">
+        <div class="nr-services-pillars__container">
+            <div class="nr-services-pillars__header">
+                <span class="nr-services-pillars__badge">Verified Service Standards</span>
+                <h2>Executive Summary: The Boardroom</h2>
+                <p>A focused environment for the traveling professional.</p>
+            </div>
+            <div class="nr-services-pillars__grid">
+                <!-- Icon 1: Comfort -->
+                <div class="nr-services-pillars__pillar">
+                    <div class="nr-services-pillars__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <h3>Rear Seat Executive</h3>
+                    <p>Reclining seats, ample legroom, and climate control at your fingertips. A true mobile office.</p>
+                </div>
+                <!-- Icon 2: Tech -->
+                <div class="nr-services-pillars__pillar">
+                    <div class="nr-services-pillars__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                            <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                        </svg>
+                    </div>
+                    <h3>Connectivity</h3>
+                    <p>In-car Wi-Fi and charging ports ensure you never miss an email between the airport and the meeting.</p>
+                </div>
+                <!-- Icon 3: Ride -->
+                <div class="nr-services-pillars__pillar">
+                    <div class="nr-services-pillars__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Air Suspension</h3>
+                    <p>The S-Class "Magic Body Control" scans the road to erase bumps. Arrive rested, not rattled.</p>
+                </div>
+                <!-- Icon 4: Image -->
+                <div class="nr-services-pillars__pillar">
+                    <div class="nr-services-pillars__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                    </div>
+                    <h3>Professionalism</h3>
+                    <p>Arriving in a black German sedan sends an unambiguous message of success and seriousness.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICES PROTOCOL (E-E-A-T)
+         ======================================== -->
+    <section class="nr-services-protocol" id="protocol" aria-label="The Sedan Protocol">
+        <div class="nr-services-protocol__container">
+            <div class="nr-services-protocol__header">
+                <div class="nr-services-protocol__label">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
+                    <span>Sedan Protocol</span>
+                </div>
+                <h2>The Sedan Protocol: Engineering Silence</h2>
+                <p>We measure quality in decibels. Silence is golden.</p>
+            </div>
+
+            <div class="nr-services-protocol__blocks">
+                <!-- Block 1: Expertise -->
+                <div class="nr-services-protocol__block nr-services-protocol__block--expertise">
+                    <div class="nr-services-protocol__block-line" aria-hidden="true"></div>
+                    <span class="nr-services-protocol__block-badge">Expertise</span>
+                    <h3>Route Planning</h3>
+                    <p>Sedans are agile. Our drivers utilize Waze and local knowledge to thread through city traffic faster than larger vehicles.</p>
+                </div>
+                <!-- Block 2: Trustworthiness -->
+                <div class="nr-services-protocol__block nr-services-protocol__block--trust">
+                    <div class="nr-services-protocol__block-line" aria-hidden="true"></div>
+                    <span class="nr-services-protocol__block-badge">Trustworthiness</span>
+                    <h3>Privacy</h3>
+                    <p>Dark tints and a discreet driver who speaks only when spoken to. Your conversations are secure.</p>
+                </div>
+                <!-- Block 3: Authoritativeness -->
+                <div class="nr-services-protocol__block nr-services-protocol__block--authority">
+                    <div class="nr-services-protocol__block-line" aria-hidden="true"></div>
+                    <span class="nr-services-protocol__block-badge">Authoritativeness</span>
+                    <h3>Maintenance</h3>
+                    <p>We adhere to the manufacturer's strict service schedule. No squeaky brakes. No warning lights.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICES COORDINATION (Logistics)
+         ======================================== -->
+    <section class="nr-services-coordination" id="coordination" aria-label="Logistics & Coordination">
+        <div class="nr-services-coordination__container">
+            <div class="nr-services-coordination__header">
+                <h2>Seamless Execution</h2>
+                <p>Every detail managed so you can focus on business, not logistics.</p>
+            </div>
+
+            <div class="nr-services-coordination__grid">
+                <!-- Card 1: Flight Tracking -->
+                <div class="nr-services-coordination__card">
+                    <div class="nr-services-coordination__card-border" aria-hidden="true"></div>
+                    <div class="nr-services-coordination__card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"/>
+                        </svg>
+                    </div>
+                    <h3>Flight Tracking</h3>
+                    <p>We monitor your flight status to ensure the driver is there when you land.</p>
+                </div>
+                <!-- Card 2: Meet & Greet -->
+                <div class="nr-services-coordination__card">
+                    <div class="nr-services-coordination__card-border" aria-hidden="true"></div>
+                    <div class="nr-services-coordination__card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/>
+                        </svg>
+                    </div>
+                    <h3>Meet & Greet</h3>
+                    <p>Professional chauffeurs meet you at baggage claim or a designated spot.</p>
+                </div>
+                <!-- Card 3: 24/7 Dispatch -->
+                <div class="nr-services-coordination__card">
+                    <div class="nr-services-coordination__card-border" aria-hidden="true"></div>
+                    <div class="nr-services-coordination__card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3>24/7 Dispatch</h3>
+                    <p>Around-the-clock support to handle schedule changes or delays.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICES FLEET (Sedan Fleet)
+         ======================================== -->
+    <section class="nr-services-fleet" id="fleet">
+        <div class="nr-services-fleet__container">
+            <header class="nr-services-fleet__header">
+                <h2 class="nr-services-fleet__heading">The Sedan Lineup</h2>
+                <p class="nr-services-fleet__intro">The finest German engineering—selected for silence, comfort, and executive presence.</p>
+            </header>
+
+            <div class="nr-services-fleet__grid">
+                <!-- Card 1: The Icon -->
+                <div class="nr-services-fleet__card">
+                    <div class="nr-services-fleet__card-image">
+                        <img src="https://placehold.co/600x400" alt="Mercedes S-Class Chauffeur" loading="lazy">
+                    </div>
+                    <div class="nr-services-fleet__card-content">
+                        <h3 class="nr-services-fleet__card-title">Mercedes-Benz S-Class</h3>
+                        <p class="nr-services-fleet__card-subtitle">The Icon</p>
+                        <ul class="nr-services-fleet__card-features">
+                            <li>The global benchmark for luxury</li>
+                            <li>Heated/Ventilated rear seats</li>
+                            <li>Magic Body Control suspension</li>
+                            <li>Privacy partition available</li>
+                        </ul>
+                        <p class="nr-services-fleet__card-capacity">Up to 2 passengers | 2 bags</p>
+                    </div>
+                </div>
+
+                <!-- Card 2: The Driver -->
+                <div class="nr-services-fleet__card">
+                    <div class="nr-services-fleet__card-image">
+                        <img src="https://placehold.co/600x400" alt="BMW 7 Series Chauffeur" loading="lazy">
+                    </div>
+                    <div class="nr-services-fleet__card-content">
+                        <h3 class="nr-services-fleet__card-title">BMW 7-Series</h3>
+                        <p class="nr-services-fleet__card-subtitle">The Driver</p>
+                        <ul class="nr-services-fleet__card-features">
+                            <li>A slightly sportier ride with equal luxury and tech focus</li>
+                            <li>Executive lounge seating</li>
+                            <li>In-car Wi-Fi & charging</li>
+                            <li>Rear entertainment system</li>
+                        </ul>
+                        <p class="nr-services-fleet__card-capacity">Up to 2 passengers | 2 bags</p>
+                    </div>
+                </div>
+
+                <!-- Card 3: The Efficient -->
+                <div class="nr-services-fleet__card">
+                    <div class="nr-services-fleet__card-image">
+                        <img src="https://placehold.co/600x400" alt="Mercedes E-Class Chauffeur" loading="lazy">
+                    </div>
+                    <div class="nr-services-fleet__card-content">
+                        <h3 class="nr-services-fleet__card-title">Mercedes-Benz E-Class</h3>
+                        <p class="nr-services-fleet__card-subtitle">The Efficient</p>
+                        <ul class="nr-services-fleet__card-features">
+                            <li>The smart choice for junior executives and frequent airport runs</li>
+                            <li>Rear climate control</li>
+                            <li>In-car Wi-Fi & charging</li>
+                            <li>Whisper-quiet cabin</li>
+                        </ul>
+                        <p class="nr-services-fleet__card-capacity">Up to 2 passengers | 2 bags</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         INLINE LEAD CAPTURE (CTA)
+         ======================================== -->
+    <section class="nr-services-cta" id="book">
+        <div class="nr-services-cta__container">
+            <div class="nr-services-cta__badge">
+                <span class="nr-services-cta__badge-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                </span>
+                <span class="nr-services-cta__badge-text">15-Min Response</span>
+            </div>
+
+            <h2 class="nr-services-cta__heading">Reserve Your Car</h2>
+            <p class="nr-services-cta__intro">Corporate rates available for frequent travelers.</p>
+
+            <!-- Fluent Form Embed -->
+            <div class="nr-services-cta__form">
+                [fluentform id="6"]
+            </div>
+
+            <div class="nr-services-cta__trust">
+                <div class="nr-services-cta__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+                    <span>S-Class Guaranteed</span>
+                </div>
+                <div class="nr-services-cta__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    <span>Privacy Assured</span>
+                </div>
+                <div class="nr-services-cta__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    <span>Flight Tracking</span>
+                </div>
+                <div class="nr-services-cta__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <span>24/7 Dispatch</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICES COVERAGE (Global Availability)
+         ======================================== -->
+    <section class="nr-services-coverage" id="geo">
+        <div class="nr-services-coverage__container">
+            <header class="nr-services-coverage__header">
+                <h2 class="nr-services-coverage__heading">Sedans in Every Capital</h2>
+                <p class="nr-services-coverage__intro">Consistent fleet standards in London, Frankfurt, Tokyo, San Francisco, Los Angeles, Dallas, Austin, Houston, Denver, New York, and Singapore.</p>
+            </header>
+
+            <div class="nr-services-coverage__grid">
+                <!-- Houston -->
+                <div class="nr-services-coverage__region">
+                    <h3 class="nr-services-coverage__region-title">Houston</h3>
+                    <div class="nr-services-coverage__codes">
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">IAH</span>
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">HOU</span>
+                    </div>
+                    <p style="font-size: 13px; color: var(--nr-body); margin-top: 12px; line-height: 1.5;">Downtown Financial District, Energy Corridor, The Galleria | Corporate sedan specialists</p>
+                </div>
+
+                <!-- Dallas -->
+                <div class="nr-services-coverage__region">
+                    <h3 class="nr-services-coverage__region-title">Dallas</h3>
+                    <div class="nr-services-coverage__codes">
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">DFW</span>
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">DAL</span>
+                    </div>
+                    <p style="font-size: 13px; color: var(--nr-body); margin-top: 12px; line-height: 1.5;">Uptown, Highland Park, Legacy West, Arts District | Executive corridor service</p>
+                </div>
+
+                <!-- New York -->
+                <div class="nr-services-coverage__region">
+                    <h3 class="nr-services-coverage__region-title">New York City</h3>
+                    <div class="nr-services-coverage__codes">
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">JFK</span>
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">LGA</span>
+                        <span class="nr-services-coverage__code">TEB</span>
+                    </div>
+                    <p style="font-size: 13px; color: var(--nr-body); margin-top: 12px; line-height: 1.5;">Midtown, Wall Street, Greenwich CT, Westchester | Financial district agility</p>
+                </div>
+
+                <!-- London -->
+                <div class="nr-services-coverage__region">
+                    <h3 class="nr-services-coverage__region-title">London</h3>
+                    <div class="nr-services-coverage__codes">
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">LHR</span>
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">LCY</span>
+                    </div>
+                    <p style="font-size: 13px; color: var(--nr-body); margin-top: 12px; line-height: 1.5;">The City, Mayfair, Canary Wharf, Knightsbridge | S-Class and BMW 7 fleet</p>
+                </div>
+
+                <!-- San Francisco -->
+                <div class="nr-services-coverage__region">
+                    <h3 class="nr-services-coverage__region-title">San Francisco</h3>
+                    <div class="nr-services-coverage__codes">
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">SFO</span>
+                        <span class="nr-services-coverage__code">SJC</span>
+                    </div>
+                    <p style="font-size: 13px; color: var(--nr-body); margin-top: 12px; line-height: 1.5;">Financial District, Palo Alto, Sand Hill Road | Silicon Valley executive transport</p>
+                </div>
+
+                <!-- Global -->
+                <div class="nr-services-coverage__region">
+                    <h3 class="nr-services-coverage__region-title">Global Markets</h3>
+                    <div class="nr-services-coverage__codes">
+                        <span class="nr-services-coverage__code">FRA</span>
+                        <span class="nr-services-coverage__code">NRT</span>
+                        <span class="nr-services-coverage__code">SIN</span>
+                    </div>
+                    <p style="font-size: 13px; color: var(--nr-body); margin-top: 12px; line-height: 1.5;">Frankfurt, Tokyo, Singapore | International sedan fleet via vetted partner network</p>
+                </div>
+            </div>
+
+            <div class="nr-services-coverage__legend">
+                <div class="nr-services-coverage__legend-item">
+                    <span class="nr-services-coverage__legend-dot nr-services-coverage__legend-dot--primary"></span>
+                    <span>Primary Hub (Local Teams)</span>
+                </div>
+                <div class="nr-services-coverage__legend-item">
+                    <span class="nr-services-coverage__legend-dot nr-services-coverage__legend-dot--secondary"></span>
+                    <span>Global Partner Network</span>
+                </div>
+            </div>
+
+            <a href="/locations/" class="nr-services-coverage__link">
+                View All Service Locations
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICE ADVANTAGES
+         ======================================== -->
+    <section class="nr-services-advantages" id="benefits">
+        <div class="nr-services-advantages__container">
+            <header class="nr-services-advantages__header">
+                <h2 class="nr-services-advantages__heading">The Business Advantage</h2>
+                <p class="nr-services-advantages__intro">Why the executive sedan remains the gold standard for corporate travel.</p>
+            </header>
+
+            <div class="nr-services-advantages__grid">
+                <!-- Card 1: Agility -->
+                <div class="nr-services-advantages__card">
+                    <div class="nr-services-advantages__card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"/>
+                        </svg>
+                    </div>
+                    <h3 class="nr-services-advantages__card-title">Agility</h3>
+                    <p class="nr-services-advantages__card-desc">Easier to park and navigate in tight European city centers.</p>
+                </div>
+
+                <!-- Card 2: Efficiency -->
+                <div class="nr-services-advantages__card">
+                    <div class="nr-services-advantages__card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="nr-services-advantages__card-title">Efficiency</h3>
+                    <p class="nr-services-advantages__card-desc">Lower carbon footprint than large SUVs.</p>
+                </div>
+
+                <!-- Card 3: Class -->
+                <div class="nr-services-advantages__card">
+                    <div class="nr-services-advantages__card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                    </div>
+                    <h3 class="nr-services-advantages__card-title">Class</h3>
+                    <p class="nr-services-advantages__card-desc">Timeless elegance that never goes out of style.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICES RELATED
+         ======================================== -->
+    <section class="nr-services-related" id="related-services">
+        <div class="nr-services-related__container">
+            <header class="nr-services-related__header">
+                <h2 class="nr-services-related__heading">Related Chauffeur Services</h2>
+            </header>
+
+            <div class="nr-services-related__grid">
+                <!-- Card 1: Airport Transfers -->
+                <a href="/airport-transfers/" class="nr-services-related__card">
+                    <div class="nr-services-related__card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 2L11 13"></path>
+                            <path d="M22 2l-7 20-4-9-9-4 20-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="nr-services-related__card-title">Airport Transfers</h3>
+                    <p class="nr-services-related__card-desc">Premium airport pickup and drop-off with flight tracking and meet & greet service.</p>
+                    <span class="nr-services-related__card-link">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </span>
+                </a>
+
+                <!-- Card 2: As-Directed Chauffeur -->
+                <a href="/as-directed-chauffeur/" class="nr-services-related__card">
+                    <div class="nr-services-related__card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="nr-services-related__card-title">As-Directed Chauffeur</h3>
+                    <p class="nr-services-related__card-desc">Flexible hourly service with unlimited stops for executives with dynamic schedules.</p>
+                    <span class="nr-services-related__card-link">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </span>
+                </a>
+
+                <!-- Card 3: Global Transport -->
+                <a href="/global-transport/" class="nr-services-related__card">
+                    <div class="nr-services-related__card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="nr-services-related__card-title">Global Transport</h3>
+                    <p class="nr-services-related__card-desc">Consistent executive transport standards across 500+ cities worldwide.</p>
+                    <span class="nr-services-related__card-link">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICES FAQ (Pure CSS - No JavaScript)
+         ======================================== -->
+    <section class="nr-services-faq nr-services-faq--dark" id="faq">
+        <div class="nr-services-faq__container">
+            <header class="nr-services-faq__header">
+                <h2 class="nr-services-faq__heading">Frequently Asked Questions</h2>
+                <p class="nr-services-faq__intro">Everything you need to know about our executive sedan service.</p>
+            </header>
+
+            <div class="nr-services-faq__list">
+                <!-- FAQ 1 -->
+                <details class="nr-services-faq__item" open>
+                    <summary class="nr-services-faq__question">
+                        <span class="nr-services-faq__question-text">How many passengers can an executive sedan hold?</span>
+                        <span class="nr-services-faq__question-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </span>
+                    </summary>
+                    <div class="nr-services-faq__answer">
+                        <p class="nr-services-faq__answer-text">Executive sedans like the Mercedes S-Class comfortably seat up to 3 passengers, though we recommend 2 for maximum comfort.</p>
+                    </div>
+                </details>
+
+                <!-- FAQ 2 -->
+                <details class="nr-services-faq__item">
+                    <summary class="nr-services-faq__question">
+                        <span class="nr-services-faq__question-text">How much luggage fits in a sedan?</span>
+                        <span class="nr-services-faq__question-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </span>
+                    </summary>
+                    <div class="nr-services-faq__answer">
+                        <p class="nr-services-faq__answer-text">The trunk typically holds 2 large checked suitcases. For more luggage or golf clubs, we recommend an SUV.</p>
+                    </div>
+                </details>
+
+                <!-- FAQ 3 -->
+                <details class="nr-services-faq__item">
+                    <summary class="nr-services-faq__question">
+                        <span class="nr-services-faq__question-text">Can I request a specific vehicle model?</span>
+                        <span class="nr-services-faq__question-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </span>
+                    </summary>
+                    <div class="nr-services-faq__answer">
+                        <p class="nr-services-faq__answer-text">While we cannot guarantee a specific color or trim, we guarantee the vehicle class (e.g., S-Class or equivalent) and quality.</p>
+                    </div>
+                </details>
+            </div>
+
+            <!-- Optional CTA -->
+            <div class="nr-services-faq__cta">
+                <h3 class="nr-services-faq__cta-heading">Ready to reserve your executive sedan?</h3>
+                <p class="nr-services-faq__cta-text">Our dispatch team is standing by to coordinate your corporate sedan service.</p>
+                <a href="tel:+18887473887" class="nr-services-faq__cta-btn">
+                    Contact Us
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<!-- ========================================
+     JSON-LD STRUCTURED DATA
+     ======================================== -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Executive Sedan Service",
+    "name": "Executive Sedan Chauffeur Service Worldwide",
+    "description": "Premium executive sedan service featuring Mercedes-Benz S-Class and BMW 7-Series chauffeurs for corporate travel and airport transfers in 500+ cities.",
+    "provider": {
+        "@type": "Organization",
+        "name": "Nebo Rides",
+        "telephone": "1-888-747-3887",
+        "url": "https://neborides.com"
+    },
+    "areaServed": [
+        {
+            "@type": "City",
+            "name": "Houston",
+            "containedInPlace": {
+                "@type": "State",
+                "name": "Texas"
+            }
+        },
+        {
+            "@type": "City",
+            "name": "Dallas",
+            "containedInPlace": {
+                "@type": "State",
+                "name": "Texas"
+            }
+        },
+        {
+            "@type": "City",
+            "name": "New York"
+        },
+        {
+            "@type": "City",
+            "name": "London"
+        },
+        {
+            "@type": "City",
+            "name": "San Francisco"
+        },
+        {
+            "@type": "City",
+            "name": "Frankfurt"
+        },
+        {
+            "@type": "City",
+            "name": "Tokyo"
+        },
+        {
+            "@type": "City",
+            "name": "Singapore"
+        }
+    ],
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Executive Sedan Services",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Mercedes-Benz S-Class Chauffeur"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "BMW 7-Series Chauffeur"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Mercedes-Benz E-Class Chauffeur"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Corporate Sedan Program"
+                }
+            }
+        ]
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "247"
+    }
+}
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "How many passengers can an executive sedan hold?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Executive sedans like the Mercedes S-Class comfortably seat up to 3 passengers, though we recommend 2 for maximum comfort."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How much luggage fits in a sedan?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The trunk typically holds 2 large checked suitcases. For more luggage or golf clubs, we recommend an SUV."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can I request a specific vehicle model?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "While we cannot guarantee a specific color or trim, we guarantee the vehicle class (e.g., S-Class or equivalent) and quality."
+            }
+        }
+    ]
+}
+</script>
+
+</body>
+</html>

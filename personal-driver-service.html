@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta -->
+    <title>Personal Driver Service Worldwide: Dedicated Chauffeur</title>
+    <meta name="description" content="Hire a personal driver for the day. Nebo Rides provides dedicated chauffeurs in your city for errands, appointments, and daily commute in luxury vehicles.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Global Styles -->
+    <link rel="stylesheet" href="global-styles.css">
+    <link rel="stylesheet" href="faq-section.css">
+
+    <!-- Personal Driver Advantages Section Styles -->
+    <style>
+        /* ========================================
+           SERVICE ADVANTAGES
+           ======================================== */
+        .nr-services-advantages {
+            padding: 80px 0;
+            background: var(--nr-ivory);
+        }
+
+        .nr-services-advantages__container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .nr-services-advantages__header {
+            text-align: center;
+            max-width: 720px;
+            margin: 0 auto 48px;
+        }
+
+        .nr-services-advantages__heading {
+            font-size: clamp(28px, 4vw, 36px);
+            font-weight: 700;
+            color: var(--nr-navy);
+            margin: 0 0 16px;
+            line-height: 1.2;
+        }
+
+        .nr-services-advantages__intro {
+            font-size: 16px;
+            color: var(--nr-body);
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .nr-services-advantages__grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 24px;
+        }
+
+        @media (min-width: 768px) {
+            .nr-services-advantages__grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .nr-services-advantages__card {
+            background: var(--nr-white);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .nr-services-advantages__card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .nr-services-advantages__card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--nr-navy);
+            border-radius: 12px 12px 0 0;
+        }
+
+        .nr-services-advantages__card-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--nr-ivory);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .nr-services-advantages__card-icon svg {
+            width: 24px;
+            height: 24px;
+            stroke: var(--nr-navy);
+        }
+
+        .nr-services-advantages__card-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--nr-navy);
+            margin: 0 0 12px;
+        }
+
+        .nr-services-advantages__card-desc {
+            font-size: 14px;
+            color: var(--nr-body);
+            line-height: 1.6;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="nr-page">
+
+    <!-- ========================================
+         HERO SECTION (Chauffeur Hero)
+         ======================================== -->
+    <section class="nr-chauffeur-hero">
+        <img class="nr-chauffeur-hero__bg" src="https://wordpress-1571592-6118951.cloudwaysapps.com/wp-content/uploads/2026/01/Worldwide-Airport-Transfers.png" alt="Personal driver service with dedicated chauffeur and luxury sedan" loading="eager">
+        <div class="nr-chauffeur-hero__border"></div>
+
+        <div class="nr-chauffeur-hero__container">
+            <div class="nr-chauffeur-hero__badge">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                <span>Dedicated Personal Staff</span>
+            </div>
+
+            <h1 class="nr-chauffeur-hero__heading">
+                Personal Driver Service: <span class="nr-chauffeur-hero__heading-accent">Your Car, Our Professional</span>
+            </h1>
+
+            <p class="nr-chauffeur-hero__sub">
+                Focus on your life, not the road. Nebo Rides provides dedicated personal drivers for daily commutes, family logistics, and multi-stop errands in 500+ cities globally.
+            </p>
+
+            <div class="nr-chauffeur-hero__cta">
+                <a href="#book" class="nr-chauffeur-hero__btn nr-chauffeur-hero__btn--primary">
+                    Hire Personal Driver
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#benefits" class="nr-chauffeur-hero__btn nr-chauffeur-hero__btn--secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+                    View Programs
+                </a>
+            </div>
+
+            <div class="nr-chauffeur-hero__trust">
+                <div class="nr-chauffeur-hero__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <span>Reclaim 300+ Hours</span>
+                </div>
+                <div class="nr-chauffeur-hero__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    <span>Same Driver</span>
+                </div>
+                <div class="nr-chauffeur-hero__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    <span>Family Safe</span>
+                </div>
+                <div class="nr-chauffeur-hero__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    <span>500+ Cities</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         TABLE OF CONTENTS
+         ======================================== -->
+    <nav class="nr-toc" aria-label="Page contents">
+        <div class="nr-container">
+            <ul class="nr-toc__list">
+                <li class="nr-toc__item">
+                    <a href="#summary" class="nr-toc__link">Executive Summary</a>
+                </li>
+                <li class="nr-toc__item">
+                    <a href="#protocol" class="nr-toc__link">The Driver Protocol</a>
+                </li>
+                <li class="nr-toc__item">
+                    <a href="#coordination" class="nr-toc__link">Logistics & Coordination</a>
+                </li>
+                <li class="nr-toc__item">
+                    <a href="#fleet" class="nr-toc__link">Fleet Options</a>
+                </li>
+                <li class="nr-toc__item">
+                    <a href="#geo" class="nr-toc__link">Global Availability</a>
+                </li>
+                <li class="nr-toc__item">
+                    <a href="#benefits" class="nr-toc__link">Service Advantages</a>
+                </li>
+                <li class="nr-toc__item">
+                    <a href="#faq" class="nr-toc__link">FAQ</a>
+                </li>
+                <li class="nr-toc__item">
+                    <a href="#related-services" class="nr-toc__link">Related Services</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ========================================
+         EXECUTIVE SUMMARY (Trust Card)
+         ======================================== -->
+    <section class="nr-services-pillars" id="summary" aria-label="Executive Summary">
+        <div class="nr-services-pillars__container">
+            <div class="nr-services-pillars__header">
+                <span class="nr-services-pillars__badge">Verified Service Standards</span>
+                <h2>Executive Summary: The Assistant</h2>
+                <p>More than a driver. A mobile concierge.</p>
+            </div>
+            <div class="nr-services-pillars__grid">
+                <!-- Icon 1: Productivity -->
+                <div class="nr-services-pillars__pillar">
+                    <div class="nr-services-pillars__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Reclaim Time</h3>
+                    <p>The average commuter loses 300 hours a year to traffic. Reclaim that time for work, reading, or rest.</p>
+                </div>
+                <!-- Icon 2: Versatility -->
+                <div class="nr-services-pillars__pillar">
+                    <div class="nr-services-pillars__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"/>
+                        </svg>
+                    </div>
+                    <h3>Errand Running</h3>
+                    <p>While you are in a meeting, your driver can pick up dry cleaning, groceries, or documents.</p>
+                </div>
+                <!-- Icon 3: Family -->
+                <div class="nr-services-pillars__pillar">
+                    <div class="nr-services-pillars__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            <path d="M9 12l2 2 4-4"></path>
+                        </svg>
+                    </div>
+                    <h3>Safety First</h3>
+                    <p>Trust us with the school run or taking elderly parents to appointments. Our drivers are vetted for vulnerable passengers.</p>
+                </div>
+                <!-- Icon 4: Continuity -->
+                <div class="nr-services-pillars__pillar">
+                    <div class="nr-services-pillars__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <h3>Same Face</h3>
+                    <p>We strive to assign the same driver to recurring clients, building trust and familiarity with your preferences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICES PROTOCOL (E-E-A-T)
+         ======================================== -->
+    <section class="nr-services-protocol" id="protocol" aria-label="The Driver Protocol">
+        <div class="nr-services-protocol__container">
+            <div class="nr-services-protocol__header">
+                <div class="nr-services-protocol__label">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
+                    <span>Driver Protocol</span>
+                </div>
+                <h2>The Driver Protocol: Engineering Trust</h2>
+                <p>Inviting someone into your daily routine requires absolute confidence.</p>
+            </div>
+
+            <div class="nr-services-protocol__blocks">
+                <!-- Block 1: Expertise -->
+                <div class="nr-services-protocol__block nr-services-protocol__block--expertise">
+                    <div class="nr-services-protocol__block-line" aria-hidden="true"></div>
+                    <span class="nr-services-protocol__block-badge">Expertise</span>
+                    <h3>Route Optimization</h3>
+                    <p>Your driver studies your daily patterns to find the fastest routes, avoiding school zones and construction bottlenecks.</p>
+                </div>
+                <!-- Block 2: Trustworthiness -->
+                <div class="nr-services-protocol__block nr-services-protocol__block--trust">
+                    <div class="nr-services-protocol__block-line" aria-hidden="true"></div>
+                    <span class="nr-services-protocol__block-badge">Trustworthiness</span>
+                    <h3>NDA Compliance</h3>
+                    <p>What is discussed in the car stays in the car. We protect your privacy and business secrets rigorously.</p>
+                </div>
+                <!-- Block 3: Authoritativeness -->
+                <div class="nr-services-protocol__block nr-services-protocol__block--authority">
+                    <div class="nr-services-protocol__block-line" aria-hidden="true"></div>
+                    <span class="nr-services-protocol__block-badge">Authoritativeness</span>
+                    <h3>Background Checks</h3>
+                    <p>Every personal driver undergoes a multi-jurisdictional criminal background check and drug screening.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICES COORDINATION (Logistics)
+         ======================================== -->
+    <section class="nr-services-coordination" id="coordination" aria-label="Logistics & Coordination">
+        <div class="nr-services-coordination__container">
+            <div class="nr-services-coordination__header">
+                <h2>Logistics Management</h2>
+                <p>Your personal driver handles more than just driving—they manage your mobile life.</p>
+            </div>
+
+            <div class="nr-services-coordination__grid">
+                <!-- Card 1: Errand Running -->
+                <div class="nr-services-coordination__card">
+                    <div class="nr-services-coordination__card-border" aria-hidden="true"></div>
+                    <div class="nr-services-coordination__card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"/>
+                        </svg>
+                    </div>
+                    <h3>Errand Running</h3>
+                    <p>Drivers can handle tasks like dry cleaning or shopping while you work.</p>
+                </div>
+                <!-- Card 2: Schedule Integration -->
+                <div class="nr-services-coordination__card">
+                    <div class="nr-services-coordination__card-border" aria-hidden="true"></div>
+                    <div class="nr-services-coordination__card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5"/>
+                        </svg>
+                    </div>
+                    <h3>Schedule Integration</h3>
+                    <p>We sync with your calendar to ensure timely arrivals.</p>
+                </div>
+                <!-- Card 3: Confidentiality -->
+                <div class="nr-services-coordination__card">
+                    <div class="nr-services-coordination__card-border" aria-hidden="true"></div>
+                    <div class="nr-services-coordination__card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"/>
+                        </svg>
+                    </div>
+                    <h3>Confidentiality</h3>
+                    <p>Strict NDAs ensure your privacy during all trips.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICES FLEET (Fleet Options)
+         ======================================== -->
+    <section class="nr-services-fleet" id="fleet">
+        <div class="nr-services-fleet__container">
+            <header class="nr-services-fleet__header">
+                <h2 class="nr-services-fleet__heading">Vehicles for Every Task</h2>
+                <p class="nr-services-fleet__intro">The right vehicle for your daily routine—whether it's the commute, errands, or family outings.</p>
+            </header>
+
+            <div class="nr-services-fleet__grid">
+                <!-- Card 1: The Daily -->
+                <div class="nr-services-fleet__card">
+                    <div class="nr-services-fleet__card-image">
+                        <img src="https://placehold.co/600x400" alt="Personal Driver Sedan" loading="lazy">
+                    </div>
+                    <div class="nr-services-fleet__card-content">
+                        <h3 class="nr-services-fleet__card-title">Executive Sedan</h3>
+                        <p class="nr-services-fleet__card-subtitle">The Daily</p>
+                        <ul class="nr-services-fleet__card-features">
+                            <li>Efficient and comfortable for the daily commute or solo errands</li>
+                            <li>Rear climate control</li>
+                            <li>In-car Wi-Fi & charging</li>
+                            <li>Whisper-quiet cabin</li>
+                        </ul>
+                        <p class="nr-services-fleet__card-capacity">Up to 2 passengers | 2 bags</p>
+                    </div>
+                </div>
+
+                <!-- Card 2: The Family -->
+                <div class="nr-services-fleet__card">
+                    <div class="nr-services-fleet__card-image">
+                        <img src="https://placehold.co/600x400" alt="Family Chauffeur SUV" loading="lazy">
+                    </div>
+                    <div class="nr-services-fleet__card-content">
+                        <h3 class="nr-services-fleet__card-title">Luxury SUV</h3>
+                        <p class="nr-services-fleet__card-subtitle">The Family</p>
+                        <ul class="nr-services-fleet__card-features">
+                            <li>Safe and spacious for kids, pets, and Costco runs</li>
+                            <li>Car seat compatible</li>
+                            <li>All-weather capability</li>
+                            <li>Ample cargo space</li>
+                        </ul>
+                        <p class="nr-services-fleet__card-capacity">Up to 5 passengers | 5 bags</p>
+                    </div>
+                </div>
+
+                <!-- Card 3: The Event -->
+                <div class="nr-services-fleet__card">
+                    <div class="nr-services-fleet__card-image">
+                        <img src="https://placehold.co/600x400" alt="Group Driver Van" loading="lazy">
+                    </div>
+                    <div class="nr-services-fleet__card-content">
+                        <h3 class="nr-services-fleet__card-title">Sprinter Van</h3>
+                        <p class="nr-services-fleet__card-subtitle">The Event</p>
+                        <ul class="nr-services-fleet__card-features">
+                            <li>For weekend outings with extended family or golf trips</li>
+                            <li>Group seating configuration</li>
+                            <li>Equipment transport capable</li>
+                            <li>Premium comfort for all</li>
+                        </ul>
+                        <p class="nr-services-fleet__card-capacity">Up to 13 passengers | 10 bags</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         INLINE LEAD CAPTURE (CTA)
+         ======================================== -->
+    <section class="nr-services-cta" id="book">
+        <div class="nr-services-cta__container">
+            <div class="nr-services-cta__badge">
+                <span class="nr-services-cta__badge-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                </span>
+                <span class="nr-services-cta__badge-text">15-Min Response</span>
+            </div>
+
+            <h2 class="nr-services-cta__heading">Find Your Driver</h2>
+            <p class="nr-services-cta__intro">Daily, weekly, and monthly packages available.</p>
+
+            <!-- Fluent Form Embed -->
+            <div class="nr-services-cta__form">
+                [fluentform id="6"]
+            </div>
+
+            <div class="nr-services-cta__trust">
+                <div class="nr-services-cta__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    <span>Dedicated Driver</span>
+                </div>
+                <div class="nr-services-cta__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    <span>Background Checked</span>
+                </div>
+                <div class="nr-services-cta__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    <span>Errand Capable</span>
+                </div>
+                <div class="nr-services-cta__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <span>Flexible Packages</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICES COVERAGE (Global Availability)
+         ======================================== -->
+    <section class="nr-services-coverage" id="geo">
+        <div class="nr-services-coverage__container">
+            <header class="nr-services-coverage__header">
+                <h2 class="nr-services-coverage__heading">Drivers in Your City</h2>
+                <p class="nr-services-coverage__intro">Matching you with local professionals in London, New York, Los Angeles, and Dubai.</p>
+            </header>
+
+            <div class="nr-services-coverage__grid">
+                <!-- London -->
+                <div class="nr-services-coverage__region">
+                    <h3 class="nr-services-coverage__region-title">London</h3>
+                    <div class="nr-services-coverage__codes">
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">LHR</span>
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">LCY</span>
+                    </div>
+                    <p style="font-size: 13px; color: var(--nr-body); margin-top: 12px; line-height: 1.5;">Kensington, Chelsea, Hampstead, Richmond | School runs and daily commute</p>
+                </div>
+
+                <!-- New York -->
+                <div class="nr-services-coverage__region">
+                    <h3 class="nr-services-coverage__region-title">New York City</h3>
+                    <div class="nr-services-coverage__codes">
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">JFK</span>
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">LGA</span>
+                        <span class="nr-services-coverage__code">TEB</span>
+                    </div>
+                    <p style="font-size: 13px; color: var(--nr-body); margin-top: 12px; line-height: 1.5;">Upper East Side, Tribeca, Westchester, Greenwich CT | Family and executive drivers</p>
+                </div>
+
+                <!-- Los Angeles -->
+                <div class="nr-services-coverage__region">
+                    <h3 class="nr-services-coverage__region-title">Los Angeles</h3>
+                    <div class="nr-services-coverage__codes">
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">LAX</span>
+                        <span class="nr-services-coverage__code">VNY</span>
+                    </div>
+                    <p style="font-size: 13px; color: var(--nr-body); margin-top: 12px; line-height: 1.5;">Beverly Hills, Brentwood, Pacific Palisades, Malibu | Personal concierge drivers</p>
+                </div>
+
+                <!-- Dubai -->
+                <div class="nr-services-coverage__region">
+                    <h3 class="nr-services-coverage__region-title">Dubai</h3>
+                    <div class="nr-services-coverage__codes">
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">DXB</span>
+                        <span class="nr-services-coverage__code">DWC</span>
+                    </div>
+                    <p style="font-size: 13px; color: var(--nr-body); margin-top: 12px; line-height: 1.5;">Downtown, Emirates Hills, Jumeirah, Arabian Ranches | Daily personal driver service</p>
+                </div>
+
+                <!-- Houston -->
+                <div class="nr-services-coverage__region">
+                    <h3 class="nr-services-coverage__region-title">Houston</h3>
+                    <div class="nr-services-coverage__codes">
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">IAH</span>
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">HOU</span>
+                    </div>
+                    <p style="font-size: 13px; color: var(--nr-body); margin-top: 12px; line-height: 1.5;">River Oaks, The Woodlands, Memorial, Sugar Land | Family and executive drivers</p>
+                </div>
+
+                <!-- Global -->
+                <div class="nr-services-coverage__region">
+                    <h3 class="nr-services-coverage__region-title">Global Markets</h3>
+                    <div class="nr-services-coverage__codes">
+                        <span class="nr-services-coverage__code">MIA</span>
+                        <span class="nr-services-coverage__code">SFO</span>
+                        <span class="nr-services-coverage__code">CDG</span>
+                    </div>
+                    <p style="font-size: 13px; color: var(--nr-body); margin-top: 12px; line-height: 1.5;">Miami, San Francisco, Paris | International placement via vetted partner network</p>
+                </div>
+            </div>
+
+            <div class="nr-services-coverage__legend">
+                <div class="nr-services-coverage__legend-item">
+                    <span class="nr-services-coverage__legend-dot nr-services-coverage__legend-dot--primary"></span>
+                    <span>Primary Hub (Local Teams)</span>
+                </div>
+                <div class="nr-services-coverage__legend-item">
+                    <span class="nr-services-coverage__legend-dot nr-services-coverage__legend-dot--secondary"></span>
+                    <span>Global Partner Network</span>
+                </div>
+            </div>
+
+            <a href="/locations/" class="nr-services-coverage__link">
+                View All Service Locations
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICE ADVANTAGES
+         ======================================== -->
+    <section class="nr-services-advantages" id="benefits">
+        <div class="nr-services-advantages__container">
+            <header class="nr-services-advantages__header">
+                <h2 class="nr-services-advantages__heading">The Lifestyle Advantage</h2>
+                <p class="nr-services-advantages__intro">Why a personal driver transforms your daily routine.</p>
+            </header>
+
+            <div class="nr-services-advantages__grid">
+                <!-- Card 1: Stress Reduction -->
+                <div class="nr-services-advantages__card">
+                    <div class="nr-services-advantages__card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="nr-services-advantages__card-title">Stress Reduction</h3>
+                    <p class="nr-services-advantages__card-desc">Traffic is the #1 cause of daily stress. Eliminate it.</p>
+                </div>
+
+                <!-- Card 2: Parking -->
+                <div class="nr-services-advantages__card">
+                    <div class="nr-services-advantages__card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/>
+                        </svg>
+                    </div>
+                    <h3 class="nr-services-advantages__card-title">Parking</h3>
+                    <p class="nr-services-advantages__card-desc">Never circle the block again. Get dropped at the door.</p>
+                </div>
+
+                <!-- Card 3: Flexibility -->
+                <div class="nr-services-advantages__card">
+                    <div class="nr-services-advantages__card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"/>
+                        </svg>
+                    </div>
+                    <h3 class="nr-services-advantages__card-title">Flexibility</h3>
+                    <p class="nr-services-advantages__card-desc">Change plans instantly. The car is yours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICES RELATED
+         ======================================== -->
+    <section class="nr-services-related" id="related-services">
+        <div class="nr-services-related__container">
+            <header class="nr-services-related__header">
+                <h2 class="nr-services-related__heading">Related Chauffeur Services</h2>
+            </header>
+
+            <div class="nr-services-related__grid">
+                <!-- Card 1: Long-Term Assignments -->
+                <a href="/long-term-chauffeur/" class="nr-services-related__card">
+                    <div class="nr-services-related__card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                    </div>
+                    <h3 class="nr-services-related__card-title">Long-Term Assignments</h3>
+                    <p class="nr-services-related__card-desc">Recurring chauffeur services with dedicated drivers for monthly contracts and seasonal residences.</p>
+                    <span class="nr-services-related__card-link">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </span>
+                </a>
+
+                <!-- Card 2: School Run Service -->
+                <a href="/school-transport/" class="nr-services-related__card">
+                    <div class="nr-services-related__card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="nr-services-related__card-title">School Run Service</h3>
+                    <p class="nr-services-related__card-desc">Safe, reliable school transport with vetted drivers trained for young passengers.</p>
+                    <span class="nr-services-related__card-link">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </span>
+                </a>
+
+                <!-- Card 3: Senior Mobility -->
+                <a href="/senior-transport/" class="nr-services-related__card">
+                    <div class="nr-services-related__card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="nr-services-related__card-title">Senior Mobility</h3>
+                    <p class="nr-services-related__card-desc">Compassionate transport for elderly parents—medical appointments, errands, and social outings.</p>
+                    <span class="nr-services-related__card-link">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICES FAQ (Pure CSS - No JavaScript)
+         ======================================== -->
+    <section class="nr-services-faq nr-services-faq--dark" id="faq">
+        <div class="nr-services-faq__container">
+            <header class="nr-services-faq__header">
+                <h2 class="nr-services-faq__heading">Frequently Asked Questions</h2>
+                <p class="nr-services-faq__intro">Everything you need to know about our personal driver service.</p>
+            </header>
+
+            <div class="nr-services-faq__list">
+                <!-- FAQ 1 -->
+                <details class="nr-services-faq__item" open>
+                    <summary class="nr-services-faq__question">
+                        <span class="nr-services-faq__question-text">Will I have the same personal driver every day?</span>
+                        <span class="nr-services-faq__question-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </span>
+                    </summary>
+                    <div class="nr-services-faq__answer">
+                        <p class="nr-services-faq__answer-text">For recurring bookings, we prioritize assigning the same driver to build familiarity and trust.</p>
+                    </div>
+                </details>
+
+                <!-- FAQ 2 -->
+                <details class="nr-services-faq__item">
+                    <summary class="nr-services-faq__question">
+                        <span class="nr-services-faq__question-text">Can the driver run errands without me in the car?</span>
+                        <span class="nr-services-faq__question-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </span>
+                    </summary>
+                    <div class="nr-services-faq__answer">
+                        <p class="nr-services-faq__answer-text">Yes, your personal driver can perform vetted errands such as picking up prescriptions or documents on your behalf.</p>
+                    </div>
+                </details>
+
+                <!-- FAQ 3 -->
+                <details class="nr-services-faq__item">
+                    <summary class="nr-services-faq__question">
+                        <span class="nr-services-faq__question-text">Are personal drivers insured?</span>
+                        <span class="nr-services-faq__question-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </span>
+                    </summary>
+                    <div class="nr-services-faq__answer">
+                        <p class="nr-services-faq__answer-text">Yes, all Nebo Rides chauffeurs are fully insured under our commercial liability policy.</p>
+                    </div>
+                </details>
+            </div>
+
+            <!-- Optional CTA -->
+            <div class="nr-services-faq__cta">
+                <h3 class="nr-services-faq__cta-heading">Ready to find your personal driver?</h3>
+                <p class="nr-services-faq__cta-text">Our team is standing by to match you with the perfect driver for your lifestyle.</p>
+                <a href="tel:+18887473887" class="nr-services-faq__cta-btn">
+                    Contact Us
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<!-- ========================================
+     JSON-LD STRUCTURED DATA
+     ======================================== -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Personal Driver Service",
+    "name": "Personal Driver Service Worldwide",
+    "description": "Dedicated personal chauffeur service for daily commutes, family logistics, and multi-stop errands in 500+ cities globally.",
+    "provider": {
+        "@type": "Organization",
+        "name": "Nebo Rides",
+        "telephone": "1-888-747-3887",
+        "url": "https://neborides.com"
+    },
+    "areaServed": [
+        {
+            "@type": "City",
+            "name": "London"
+        },
+        {
+            "@type": "City",
+            "name": "New York"
+        },
+        {
+            "@type": "City",
+            "name": "Los Angeles"
+        },
+        {
+            "@type": "City",
+            "name": "Dubai"
+        },
+        {
+            "@type": "City",
+            "name": "Houston",
+            "containedInPlace": {
+                "@type": "State",
+                "name": "Texas"
+            }
+        }
+    ],
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Personal Driver Services",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Daily Personal Driver"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Errand Running Service"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Family & School Run Transport"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Senior Mobility Assistance"
+                }
+            }
+        ]
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "198"
+    }
+}
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "Will I have the same personal driver every day?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "For recurring bookings, we prioritize assigning the same driver to build familiarity and trust."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can the driver run errands without me in the car?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, your personal driver can perform vetted errands such as picking up prescriptions or documents on your behalf."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Are personal drivers insured?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, all Nebo Rides chauffeurs are fully insured under our commercial liability policy."
+            }
+        }
+    ]
+}
+</script>
+
+</body>
+</html>
