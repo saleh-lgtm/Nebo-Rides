@@ -16,180 +16,6 @@
     <!-- Global Styles -->
     <link rel="stylesheet" href="global-styles.css">
     <link rel="stylesheet" href="faq-section.css">
-
-    <!-- Enterprise Tech Display Styles -->
-    <style>
-        /* ========================================
-           ENTERPRISE TECH DISPLAY
-           ======================================== */
-        .nr-services-tech {
-            padding: 80px 0;
-            background: var(--nr-ivory);
-        }
-
-        .nr-services-tech__container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
-
-        .nr-services-tech__header {
-            text-align: center;
-            max-width: 720px;
-            margin: 0 auto 48px;
-        }
-
-        .nr-services-tech__heading {
-            font-size: clamp(28px, 4vw, 36px);
-            font-weight: 700;
-            color: var(--nr-navy);
-            margin: 0 0 16px;
-            line-height: 1.2;
-        }
-
-        .nr-services-tech__intro {
-            font-size: 16px;
-            color: var(--nr-body);
-            line-height: 1.6;
-            margin: 0;
-        }
-
-        .nr-services-tech__grid {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            gap: 24px;
-        }
-
-        @media (min-width: 768px) {
-            .nr-services-tech__grid {
-                grid-template-columns: repeat(3, 1fr);
-            }
-        }
-
-        .nr-services-tech__card {
-            background: var(--nr-white);
-            padding: 32px;
-            border-radius: 12px;
-            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
-            text-align: center;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .nr-services-tech__card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-        }
-
-        .nr-services-tech__card-icon {
-            width: 64px;
-            height: 64px;
-            margin: 0 auto 20px;
-            background: linear-gradient(135deg, var(--nr-navy) 0%, #1a3a5c 100%);
-            border-radius: 16px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .nr-services-tech__card-icon svg {
-            width: 32px;
-            height: 32px;
-            color: var(--nr-white);
-        }
-
-        .nr-services-tech__card-title {
-            font-size: 18px;
-            font-weight: 600;
-            color: var(--nr-navy);
-            margin: 0 0 12px;
-        }
-
-        .nr-services-tech__card-desc {
-            font-size: 14px;
-            color: var(--nr-body);
-            line-height: 1.6;
-            margin: 0;
-        }
-
-        /* ========================================
-           ADMINISTRATIVE BENEFITS
-           ======================================== */
-        .nr-services-benefits {
-            padding: 80px 0;
-            background: var(--nr-white);
-        }
-
-        .nr-services-benefits__container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
-
-        .nr-services-benefits__header {
-            text-align: center;
-            max-width: 720px;
-            margin: 0 auto 48px;
-        }
-
-        .nr-services-benefits__heading {
-            font-size: clamp(28px, 4vw, 36px);
-            font-weight: 700;
-            color: var(--nr-navy);
-            margin: 0 0 16px;
-            line-height: 1.2;
-        }
-
-        .nr-services-benefits__grid {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            gap: 24px;
-        }
-
-        @media (min-width: 768px) {
-            .nr-services-benefits__grid {
-                grid-template-columns: repeat(3, 1fr);
-            }
-        }
-
-        .nr-services-benefits__card {
-            background: var(--nr-ivory);
-            padding: 32px;
-            border-radius: 12px;
-            border-left: 4px solid var(--nr-navy);
-        }
-
-        .nr-services-benefits__card-icon {
-            width: 48px;
-            height: 48px;
-            margin-bottom: 16px;
-            background: var(--nr-white);
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-        }
-
-        .nr-services-benefits__card-icon svg {
-            width: 24px;
-            height: 24px;
-            color: var(--nr-navy);
-        }
-
-        .nr-services-benefits__card-title {
-            font-size: 18px;
-            font-weight: 600;
-            color: var(--nr-navy);
-            margin: 0 0 12px;
-        }
-
-        .nr-services-benefits__card-desc {
-            font-size: 14px;
-            color: var(--nr-body);
-            line-height: 1.6;
-            margin: 0;
-        }
-    </style>
 </head>
 <body>
 <div class="nr-page">
@@ -267,6 +93,9 @@
                 </li>
                 <li class="nr-toc__item">
                     <a href="#geo" class="nr-toc__link">Global Execution</a>
+                </li>
+                <li class="nr-toc__item">
+                    <a href="#corporate" class="nr-toc__link">Corporate Solutions</a>
                 </li>
                 <li class="nr-toc__item">
                     <a href="#faq" class="nr-toc__link">FAQ</a>
@@ -357,21 +186,21 @@
                     <div class="nr-services-protocol__block-line" aria-hidden="true"></div>
                     <span class="nr-services-protocol__block-badge">Expertise</span>
                     <h3>Centralized Dispatch Command</h3>
-                    <p>We operate a 24/7 global operations desk that monitors every Nebo Rides vehicle in real-time. Our dispatchers aren't just call-takers; they are logistics experts who proactively manage schedules, traffic disruptions, and flight status on a global scale.</p>
+                    <p>We operate a 24/7 global operations desk that monitors every Nebo Rides vehicle in real-time. Our dispatchers aren't just call-takers; they are logistics experts who proactively manage schedules, traffic disruptions, and flight status on a global scale. Each dispatcher undergoes specialized training in corporate travel management protocols, enabling them to anticipate issues before they impact your executives' schedules.</p>
                 </div>
                 <!-- Block 2: Trustworthiness -->
                 <div class="nr-services-protocol__block nr-services-protocol__block--trust">
                     <div class="nr-services-protocol__block-line" aria-hidden="true"></div>
                     <span class="nr-services-protocol__block-badge">Trustworthiness</span>
                     <h3>Financial Transparency & Accuracy</h3>
-                    <p>We eliminate "billing surprises." Our system generates automated, itemized receipts and unified monthly invoices that match your corporate fiscal requirements, ensuring total accuracy for audit and tax compliance.</p>
+                    <p>We eliminate "billing surprises." Our system generates automated, itemized receipts and unified monthly invoices that match your corporate fiscal requirements, ensuring total accuracy for audit and tax compliance. Every charge is documented with GPS-verified route data and timestamped trip details, providing the financial visibility that procurement teams and controllers demand from transportation vendors.</p>
                 </div>
                 <!-- Block 3: Authoritativeness -->
                 <div class="nr-services-protocol__block nr-services-protocol__block--authority">
                     <div class="nr-services-protocol__block-line" aria-hidden="true"></div>
                     <span class="nr-services-protocol__block-badge">Authoritativeness</span>
                     <h3>Integrated Mobility Reporting</h3>
-                    <p>We provide travel managers with deep insights into their team's mobility patterns. From usage trends to geographical spend analysis, our platform offers the data needed to optimize your corporate travel budget.</p>
+                    <p>We provide travel managers with deep insights into their team's mobility patterns. From usage trends to geographical spend analysis, our platform offers the data needed to optimize your corporate travel budget. These analytics empower finance teams to identify cost-saving opportunities, benchmark transportation spend against industry standards, and make data-driven decisions about their ground transportation programs.</p>
                 </div>
             </div>
         </div>
@@ -397,7 +226,7 @@
                         </svg>
                     </div>
                     <h3>Unified Account Portal</h3>
-                    <p>Access all historical trip data, future reservations, and financial statements through a single, secure corporate gateway.</p>
+                    <p>Access all historical trip data, future reservations, and financial statements through a single, secure corporate gateway. The portal supports role-based permissions so administrators, bookers, and finance teams each see the data most relevant to their workflow.</p>
                 </div>
                 <!-- Card 2: Flexible Billing -->
                 <div class="nr-services-coordination__card">
@@ -408,7 +237,7 @@
                         </svg>
                     </div>
                     <h3>Flexible Billing Tiers</h3>
-                    <p>Choose between individual ride billing, department-level accounts, or a single master corporate invoice.</p>
+                    <p>Choose between individual ride billing, department-level accounts, or a single master corporate invoice. Each tier is fully configurable with custom cost center codes, project tags, and approval workflows that match your organization's financial structure.</p>
                 </div>
                 <!-- Card 3: GPS Manifest -->
                 <div class="nr-services-coordination__card">
@@ -420,7 +249,7 @@
                         </svg>
                     </div>
                     <h3>Real-Time GPS Manifest</h3>
-                    <p>Get a live view of every active trip and vehicle location, providing essential "Duty of Care" oversight for security teams.</p>
+                    <p>Get a live view of every active trip and vehicle location, providing essential "Duty of Care" oversight for security teams. GPS data is archived for compliance reporting and can be exported to your internal risk management platform for post-trip analysis.</p>
                 </div>
             </div>
         </div>
@@ -498,11 +327,11 @@
             </div>
 
             <h2 class="nr-services-cta__heading">Optimize Your Travel Billing Today</h2>
-            <p class="nr-services-cta__intro">Standing by to help you streamline your corporate mobility logistics. 15-minute response time.</p>
+            <p class="nr-services-cta__intro">Get immediate pricing and a custom billing configuration proposal for your organization. Our corporate accounts team responds within 15 minutes with a detailed plan covering unified invoicing, dispatch integration, and reporting capabilities tailored to your finance team's requirements.</p>
 
             <!-- Fluent Form Embed -->
             <div class="nr-services-cta__form">
-                [fluentform id="6"]
+                [fluentform id="3"]
             </div>
 
             <div class="nr-services-cta__trust">
@@ -625,49 +454,61 @@
     </section>
 
     <!-- ========================================
-         ADMINISTRATIVE BENEFITS
+         SERVICES CORPORATE (B2B Focus)
          ======================================== -->
-    <section class="nr-services-benefits">
-        <div class="nr-services-benefits__container">
-            <header class="nr-services-benefits__header">
-                <h2 class="nr-services-benefits__heading">Powering Finance and Operations</h2>
-            </header>
+    <section class="nr-services-corporate" id="corporate">
+        <div class="nr-services-corporate__container">
+            <div class="nr-services-corporate__content">
+                <div class="nr-services-corporate__text">
+                    <span class="nr-services-corporate__label">For Corporate Travel</span>
+                    <h2 class="nr-services-corporate__heading">Centralized Billing Engineered for Finance Teams</h2>
+                    <p class="nr-services-corporate__intro">Designed for CFOs, corporate travel managers, and accounts payable teams who need complete financial control over global ground transportation spend. Nebo Rides consolidates your entire mobility program into a single, transparent billing stream with real-time dispatch visibility across every market.</p>
 
-            <div class="nr-services-benefits__grid">
-                <!-- Card 1: Reduced Overhead -->
-                <div class="nr-services-benefits__card">
-                    <div class="nr-services-benefits__card-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="12" y1="1" x2="12" y2="23"></line>
-                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-                        </svg>
-                    </div>
-                    <h3 class="nr-services-benefits__card-title">Reduced Overhead</h3>
-                    <p class="nr-services-benefits__card-desc">Eliminate the need to manage multiple transportation vendors and invoices.</p>
-                </div>
+                    <div class="nr-services-corporate__features">
+                        <div class="nr-services-corporate__feature">
+                            <div class="nr-services-corporate__feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+                                    <line x1="1" y1="10" x2="23" y2="10"></line>
+                                </svg>
+                            </div>
+                            <div class="nr-services-corporate__feature-text">
+                                <h3>Centralized Billing</h3>
+                                <p>Replace dozens of vendor invoices with a single consolidated monthly statement covering all global transportation activity. Each trip is itemized with passenger name, route, vehicle class, and cost center code, providing the granularity your AP team needs for accurate allocation. Our billing system supports multiple output formats compatible with SAP, Oracle, and major ERP platforms.</p>
+                            </div>
+                        </div>
 
-                <!-- Card 2: Budget Predictability -->
-                <div class="nr-services-benefits__card">
-                    <div class="nr-services-benefits__card-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="18" y1="20" x2="18" y2="10"></line>
-                            <line x1="12" y1="20" x2="12" y2="4"></line>
-                            <line x1="6" y1="20" x2="6" y2="14"></line>
-                        </svg>
-                    </div>
-                    <h3 class="nr-services-benefits__card-title">Budget Predictability</h3>
-                    <p class="nr-services-benefits__card-desc">Fixed corporate rates and transparent fee structures for accurate forecasting.</p>
-                </div>
+                        <div class="nr-services-corporate__feature">
+                            <div class="nr-services-corporate__feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                            </div>
+                            <div class="nr-services-corporate__feature-text">
+                                <h3>Priority Dispatch</h3>
+                                <p>Corporate billing account holders receive elevated dispatch priority, ensuring vehicle availability even during surge periods and major conference dates. Our command center pre-allocates resources for high-volume accounts and maintains backup vehicles in key markets, guaranteeing that your executives are never stranded due to demand spikes.</p>
+                            </div>
+                        </div>
 
-                <!-- Card 3: Dispute Resolution -->
-                <div class="nr-services-benefits__card">
-                    <div class="nr-services-benefits__card-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                        </svg>
+                        <div class="nr-services-corporate__feature">
+                            <div class="nr-services-corporate__feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div class="nr-services-corporate__feature-text">
+                                <h3>Duty of Care</h3>
+                                <p>Every active trip is tracked via GPS with live positional data accessible to your travel desk and security team. Comprehensive movement logs are archived for compliance review, and automated alerts notify administrators of trip status changes, fulfilling your organization's duty of care requirements for global employee travel.</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3 class="nr-services-benefits__card-title">Dispute Resolution</h3>
-                    <p class="nr-services-benefits__card-desc">A dedicated account team to handle any billing or logistical inquiries immediately.</p>
+
+                    <a href="/corporate-transportation/" class="nr-services-corporate__button">
+                        Learn About Corporate Accounts
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
                 </div>
             </div>
         </div>
@@ -891,38 +732,7 @@
 }
 </script>
 
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "How does centralized billing benefit my company?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Centralized billing reduces administrative workload by consolidating all company-wide travel into a single invoice, providing better financial visibility and easier expense tracking."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Can I see my chauffeurs' locations in real-time?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Our centralized dispatch portal provides real-time GPS tracking for all active reservations, giving you total visibility for security and coordination."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "How accurate is the invoicing for global trips?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Every trip is logged in our unified database. We provide 100% transparent invoicing with detailed trip data (time, route, vehicle) regardless of which city the service was provided in."
-            }
-        }
-    ]
-}
-</script>
+<!-- FAQ JSON-LD handled by Rank Math Pro -->
 
 </body>
 </html>

@@ -17,111 +17,6 @@
     <link rel="stylesheet" href="global-styles.css">
     <link rel="stylesheet" href="faq-section.css">
 
-    <!-- HR Benefits Section Styles -->
-    <style>
-        /* ========================================
-           HR BENEFITS SECTION
-           ======================================== */
-        .nr-services-hr {
-            padding: 80px 0;
-            background: var(--nr-ivory);
-        }
-
-        .nr-services-hr__container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
-
-        .nr-services-hr__header {
-            text-align: center;
-            max-width: 720px;
-            margin: 0 auto 48px;
-        }
-
-        .nr-services-hr__heading {
-            font-size: clamp(28px, 4vw, 36px);
-            font-weight: 700;
-            color: var(--nr-navy);
-            margin: 0 0 16px;
-            line-height: 1.2;
-        }
-
-        .nr-services-hr__intro {
-            font-size: 16px;
-            color: var(--nr-body);
-            line-height: 1.6;
-            margin: 0;
-        }
-
-        .nr-services-hr__grid {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            gap: 24px;
-        }
-
-        @media (min-width: 768px) {
-            .nr-services-hr__grid {
-                grid-template-columns: repeat(3, 1fr);
-            }
-        }
-
-        .nr-services-hr__card {
-            background: var(--nr-white);
-            padding: 32px;
-            border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
-            position: relative;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .nr-services-hr__card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-        }
-
-        .nr-services-hr__card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 4px;
-            background: var(--nr-navy);
-            border-radius: 12px 12px 0 0;
-        }
-
-        .nr-services-hr__card-icon {
-            width: 56px;
-            height: 56px;
-            background: linear-gradient(135deg, var(--nr-navy) 0%, #2d3548 100%);
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 20px;
-        }
-
-        .nr-services-hr__card-icon svg {
-            width: 28px;
-            height: 28px;
-            stroke: var(--nr-white);
-        }
-
-        .nr-services-hr__card-title {
-            font-size: 18px;
-            font-weight: 600;
-            color: var(--nr-navy);
-            margin: 0 0 12px;
-        }
-
-        .nr-services-hr__card-desc {
-            font-size: 14px;
-            color: var(--nr-body);
-            line-height: 1.6;
-            margin: 0;
-        }
-    </style>
 </head>
 <body>
 <div class="nr-page">
@@ -201,7 +96,7 @@
                     <a href="#geo" class="nr-toc__link">Campus Coverage</a>
                 </li>
                 <li class="nr-toc__item">
-                    <a href="#benefits" class="nr-toc__link">HR Benefits</a>
+                    <a href="#corporate" class="nr-toc__link">Corporate Solutions</a>
                 </li>
                 <li class="nr-toc__item">
                     <a href="#faq" class="nr-toc__link">FAQ</a>
@@ -449,7 +344,7 @@
 
             <!-- Fluent Form Embed -->
             <div class="nr-services-cta__form">
-                [fluentform id="6"]
+                [fluentform id="3"]
             </div>
 
             <div class="nr-services-cta__trust">
@@ -560,53 +455,46 @@
     </section>
 
     <!-- ========================================
-         HR BENEFITS SECTION
+         SERVICES CORPORATE (B2B Focus)
          ======================================== -->
-    <section class="nr-services-hr" id="benefits">
-        <div class="nr-services-hr__container">
-            <header class="nr-services-hr__header">
-                <h2 class="nr-services-hr__heading">Strategic HR Benefits</h2>
-                <p class="nr-services-hr__intro">Employee transportation as a competitive advantage for recruitment, retention, and operational efficiency.</p>
-            </header>
-
-            <div class="nr-services-hr__grid">
-                <!-- Card 1: Recruitment Advantage -->
-                <div class="nr-services-hr__card">
-                    <div class="nr-services-hr__card-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                            <circle cx="8.5" cy="7" r="4"></circle>
-                            <line x1="20" y1="8" x2="20" y2="14"></line>
-                            <line x1="23" y1="11" x2="17" y2="11"></line>
-                        </svg>
-                    </div>
-                    <h3 class="nr-services-hr__card-title">Recruitment Advantage</h3>
-                    <p class="nr-services-hr__card-desc">Transportation benefits expand your talent pool by 40%. Attract candidates who previously declined due to commute concerns. Position your company as an employer of choice with premium mobility benefits.</p>
+    <section class="nr-services-corporate" id="corporate">
+        <div class="nr-services-corporate__container">
+            <div class="nr-services-corporate__content">
+                <div class="nr-services-corporate__text">
+                    <span class="nr-services-corporate__label">For Corporate Travel</span>
+                    <h2 class="nr-services-corporate__heading">Enterprise Employee Transportation Programs for HR & Operations Teams</h2>
+                    <p class="nr-services-corporate__intro">Nebo Rides partners with corporate travel managers and HR directors to deliver scalable employee transportation solutions that reduce commute-related turnover, eliminate parking overhead, and strengthen your employer brand across multiple campuses and shift schedules.</p>
                 </div>
-
-                <!-- Card 2: Reduced Parking Demand -->
-                <div class="nr-services-hr__card">
-                    <div class="nr-services-hr__card-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                            <path d="M9 17V7h4a3 3 0 0 1 0 6H9"></path>
-                        </svg>
+                <div class="nr-services-corporate__features">
+                    <div class="nr-services-corporate__feature">
+                        <div class="nr-services-corporate__feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+                        </div>
+                        <div class="nr-services-corporate__feature-text">
+                            <h3>Centralized Billing</h3>
+                            <p>Consolidate all employee shuttle costs into a single monthly invoice with cost-center allocation and department-level breakdowns. Our enterprise billing platform integrates with SAP, Oracle, and major ERP systems for seamless reconciliation across your entire workforce mobility program.</p>
+                        </div>
                     </div>
-                    <h3 class="nr-services-hr__card-title">Reduced Parking Demand</h3>
-                    <p class="nr-services-hr__card-desc">Eliminate costly parking expansion projects. Each shuttle can remove 20-50 single-occupancy vehicles from your lot. Reduce real estate costs and meet sustainability commitments simultaneously.</p>
-                </div>
-
-                <!-- Card 3: Insurance & Liability -->
-                <div class="nr-services-hr__card">
-                    <div class="nr-services-hr__card-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                            <path d="M9 12l2 2 4-4"></path>
-                        </svg>
+                    <div class="nr-services-corporate__feature">
+                        <div class="nr-services-corporate__feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                        </div>
+                        <div class="nr-services-corporate__feature-text">
+                            <h3>Priority Dispatch</h3>
+                            <p>Corporate account holders receive dedicated dispatch priority for shift changes, overtime scheduling, and emergency staffing situations. Our 24/7 operations center guarantees fleet availability during peak periods, ensuring your workforce arrives on time regardless of volume fluctuations.</p>
+                        </div>
                     </div>
-                    <h3 class="nr-services-hr__card-title">Insurance & Liability Management</h3>
-                    <p class="nr-services-hr__card-desc">Transfer commute-related liability to our fully insured operation. $5M commercial coverage per incident. Reduce workers' comp claims from parking lot incidents and commute-related stress.</p>
+                    <div class="nr-services-corporate__feature">
+                        <div class="nr-services-corporate__feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                        </div>
+                        <div class="nr-services-corporate__feature-text">
+                            <h3>Duty of Care</h3>
+                            <p>Every driver undergoes FBI background checks, DOT drug screening, and defensive driving certification to protect your employees during their commute. Our $5M commercial liability coverage and real-time GPS tracking provide full duty-of-care compliance for your organization's risk management requirements.</p>
+                        </div>
+                    </div>
                 </div>
+                <a href="/corporate-transportation/" class="nr-services-corporate__button">Explore Corporate Transportation Programs</a>
             </div>
         </div>
     </section>
@@ -857,46 +745,7 @@
 }
 </script>
 
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What is the minimum number of employees required?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Our employee transportation programs are designed for flexibility. While we can accommodate groups as small as 10 employees with our SUV fleet, our shuttle programs become most cost-effective at 25+ employees per route."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "How do you handle multiple shift schedules?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "We specialize in multi-shift operations. Our dispatch team coordinates separate pickup schedules for morning, swing, and night shifts with 24/7 service availability."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Can employees track their shuttle in real-time?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. All shuttles are GPS-tracked, and employees can view real-time arrival estimates through our mobile app or SMS alerts."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "How is billing handled for employee transportation?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "We offer flexible billing models: monthly flat-rate contracts for fixed routes, per-ride billing for on-demand service, or hybrid arrangements with detailed ridership reports."
-            }
-        }
-    ]
-}
-</script>
+<!-- FAQ JSON-LD handled by Rank Math Pro -->
 
 </body>
 </html>

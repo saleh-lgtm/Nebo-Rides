@@ -10,21 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="global-styles.css">
     <link rel="stylesheet" href="faq-section.css">
-    <style>
-        .nr-services-advantages { padding: 80px 0; background: var(--nr-ivory); }
-        .nr-services-advantages__container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
-        .nr-services-advantages__header { text-align: center; max-width: 720px; margin: 0 auto 48px; }
-        .nr-services-advantages__heading { font-size: clamp(28px, 4vw, 36px); font-weight: 700; color: var(--nr-navy); margin: 0 0 16px; line-height: 1.2; }
-        .nr-services-advantages__intro { font-size: 16px; color: var(--nr-body); line-height: 1.6; margin: 0; }
-        .nr-services-advantages__grid { display: grid; grid-template-columns: repeat(1, 1fr); gap: 24px; }
-        @media (min-width: 768px) { .nr-services-advantages__grid { grid-template-columns: repeat(3, 1fr); } }
-        .nr-services-advantages__card { background: var(--nr-white); padding: 32px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); position: relative; transition: transform 0.3s ease, box-shadow 0.3s ease; }
-        .nr-services-advantages__card:hover { transform: translateY(-4px); box-shadow: 0 8px 32px rgba(0,0,0,0.1); }
-        .nr-services-advantages__card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: var(--nr-navy); border-radius: 12px 12px 0 0; }
-        .nr-services-advantages__card-number { width: 40px; height: 40px; background: var(--nr-navy); color: var(--nr-white); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: 600; margin-bottom: 20px; }
-        .nr-services-advantages__card-title { font-size: 18px; font-weight: 600; color: var(--nr-navy); margin: 0 0 12px; }
-        .nr-services-advantages__card-desc { font-size: 14px; color: var(--nr-body); line-height: 1.6; margin: 0; }
-    </style>
 </head>
 <body>
 <div class="nr-page">
@@ -58,7 +43,9 @@
         <li class="nr-toc__item"><a href="#coordination" class="nr-toc__link">Logistics & Coordination</a></li>
         <li class="nr-toc__item"><a href="#fleet" class="nr-toc__link">Bus Fleet</a></li>
         <li class="nr-toc__item"><a href="#geo" class="nr-toc__link">Global Airports</a></li>
-        <li class="nr-toc__item"><a href="#benefits" class="nr-toc__link">Service Advantages</a></li>
+        <li class="nr-toc__item">
+            <a href="#corporate" class="nr-toc__link">Corporate Solutions</a>
+        </li>
         <li class="nr-toc__item"><a href="#faq" class="nr-toc__link">FAQ</a></li>
         <li class="nr-toc__item"><a href="#related-services" class="nr-toc__link">Related Services</a></li>
     </ul></div></nav>
@@ -87,9 +74,9 @@
                 <p>A delay at the airport ripples through the entire event. We stop the ripple.</p>
             </div>
             <div class="nr-services-protocol__blocks">
-                <div class="nr-services-protocol__block nr-services-protocol__block--expertise"><div class="nr-services-protocol__block-line" aria-hidden="true"></div><span class="nr-services-protocol__block-badge">EXPERTISE</span><h3>Terminal Staging</h3><p>Buses cannot sit at the curb forever. We stage in commercial holding lots and pull up only when your group is assembled and ready to load.</p></div>
-                <div class="nr-services-protocol__block nr-services-protocol__block--trust"><div class="nr-services-protocol__block-line" aria-hidden="true"></div><span class="nr-services-protocol__block-badge">TRUSTWORTHINESS</span><h3>Headcounts</h3><p>We never leave a guest behind. Our coordinators perform physical headcounts against the manifest before the door closes.</p></div>
-                <div class="nr-services-protocol__block nr-services-protocol__block--authority"><div class="nr-services-protocol__block-line" aria-hidden="true"></div><span class="nr-services-protocol__block-badge">AUTHORITATIVENESS</span><h3>Commercial Lanes</h3><p>Our vehicles have the permits to access commercial bus lanes, bypassing the congested private car pickup zones.</p></div>
+                <div class="nr-services-protocol__block nr-services-protocol__block--expertise"><div class="nr-services-protocol__block-line" aria-hidden="true"></div><span class="nr-services-protocol__block-badge">EXPERTISE</span><h3>Terminal Staging</h3><p>Buses cannot sit at the curb forever. We stage in commercial holding lots and pull up only when your group is assembled and ready to load. Our operations team coordinates with airport ground control in real time to ensure optimal staging positions, minimizing idle time and avoiding costly curbside violations at major hubs like JFK, Heathrow, and DXB.</p></div>
+                <div class="nr-services-protocol__block nr-services-protocol__block--trust"><div class="nr-services-protocol__block-line" aria-hidden="true"></div><span class="nr-services-protocol__block-badge">TRUSTWORTHINESS</span><h3>Headcounts</h3><p>We never leave a guest behind. Our coordinators perform physical headcounts against the manifest before the door closes. Each passenger is checked off a digital roster synced with our dispatch center, and group leaders receive a real-time confirmation that all attendees are accounted for before the shuttle departs for the hotel or venue.</p></div>
+                <div class="nr-services-protocol__block nr-services-protocol__block--authority"><div class="nr-services-protocol__block-line" aria-hidden="true"></div><span class="nr-services-protocol__block-badge">AUTHORITATIVENESS</span><h3>Commercial Lanes</h3><p>Our vehicles have the permits to access commercial bus lanes, bypassing the congested private car pickup zones. This means faster boarding, shorter wait times, and a more professional arrival experience for your corporate group, conference delegation, or incentive travel program at airports worldwide.</p></div>
             </div>
         </div>
     </section>
@@ -98,9 +85,9 @@
         <div class="nr-services-coordination__container">
             <div class="nr-services-coordination__header"><h2>Arrival Logistics</h2><p>Synchronized ground operations for seamless airport transfers.</p></div>
             <div class="nr-services-coordination__grid">
-                <div class="nr-services-coordination__card"><div class="nr-services-coordination__card-border" aria-hidden="true"></div><div class="nr-services-coordination__card-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg></div><h3>Terminal Staging</h3><p>Buses wait in commercial lots until the group is assembled.</p></div>
-                <div class="nr-services-coordination__card"><div class="nr-services-coordination__card-border" aria-hidden="true"></div><div class="nr-services-coordination__card-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"/></svg></div><h3>Flight Tracking</h3><p>Monitoring all incoming flights for delays.</p></div>
-                <div class="nr-services-coordination__card"><div class="nr-services-coordination__card-border" aria-hidden="true"></div><div class="nr-services-coordination__card-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"/></svg></div><h3>Luggage Management</h3><p>Handling large volumes of baggage with under-floor bays.</p></div>
+                <div class="nr-services-coordination__card"><div class="nr-services-coordination__card-border" aria-hidden="true"></div><div class="nr-services-coordination__card-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg></div><h3>Terminal Staging</h3><p>Buses wait in commercial lots until the group is assembled, then pull to the curbside loading zone on command. Our dispatch team coordinates exact timing with your on-ground greeter to eliminate idle wait and ensure a smooth transition from terminal to vehicle.</p></div>
+                <div class="nr-services-coordination__card"><div class="nr-services-coordination__card-border" aria-hidden="true"></div><div class="nr-services-coordination__card-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"/></svg></div><h3>Flight Tracking</h3><p>Monitoring all incoming flights for delays, cancellations, and gate changes in real time. If a subgroup's flight is delayed, we automatically adjust the shuttle schedule and can dispatch a secondary relief vehicle so the rest of your group stays on track.</p></div>
+                <div class="nr-services-coordination__card"><div class="nr-services-coordination__card-border" aria-hidden="true"></div><div class="nr-services-coordination__card-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"/></svg></div><h3>Luggage Management</h3><p>Handling large volumes of baggage with under-floor bays designed for conference materials, trade show equipment, and oversized suitcases. Our greeters assist with loading to ensure efficient turnaround and protect your team's belongings throughout the transfer.</p></div>
             </div>
         </div>
     </section>
@@ -120,8 +107,8 @@
         <div class="nr-services-cta__container">
             <div class="nr-services-cta__badge"><span class="nr-services-cta__badge-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></span><span class="nr-services-cta__badge-text">Quick Quote</span></div>
             <h2 class="nr-services-cta__heading">Move Your People</h2>
-            <p class="nr-services-cta__intro">Quote your airport transfer logistics today.</p>
-            <div class="nr-services-cta__form">[fluentform id="6"]</div>
+            <p class="nr-services-cta__intro">Get a detailed, all-inclusive quote for your group airport shuttle logistics today and let our coordination team handle the complexity of moving dozens or hundreds of passengers seamlessly from terminal to venue.</p>
+            <div class="nr-services-cta__form">[fluentform id="3"]</div>
             <div class="nr-services-cta__trust">
                 <div class="nr-services-cta__trust-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span>Meet & Greet</span></div>
                 <div class="nr-services-cta__trust-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><span>Flight Tracking</span></div>
@@ -147,13 +134,44 @@
         </div>
     </section>
 
-    <section class="nr-services-advantages" id="benefits">
-        <div class="nr-services-advantages__container">
-            <header class="nr-services-advantages__header"><h2 class="nr-services-advantages__heading">The Efficiency Advantage</h2><p class="nr-services-advantages__intro">Cost-effective group transport that builds team morale.</p></header>
-            <div class="nr-services-advantages__grid">
-                <div class="nr-services-advantages__card"><div class="nr-services-advantages__card-number">1</div><h3 class="nr-services-advantages__card-title">Community</h3><p class="nr-services-advantages__card-desc">Teams travel together, building morale.</p></div>
-                <div class="nr-services-advantages__card"><div class="nr-services-advantages__card-number">2</div><h3 class="nr-services-advantages__card-title">Cost</h3><p class="nr-services-advantages__card-desc">Significantly cheaper per-head than individual black cars.</p></div>
-                <div class="nr-services-advantages__card"><div class="nr-services-advantages__card-number">3</div><h3 class="nr-services-advantages__card-title">Certainty</h3><p class="nr-services-advantages__card-desc">One vehicle, one arrival time at the hotel.</p></div>
+    <section class="nr-services-corporate" id="corporate">
+        <div class="nr-services-corporate__container">
+            <div class="nr-services-corporate__content">
+                <div class="nr-services-corporate__text">
+                    <span class="nr-services-corporate__label">For Corporate Travel</span>
+                    <h2>Group Shuttle Solutions for Corporate Travel Programs</h2>
+                    <p>Nebo Rides partners with corporate travel managers and executive assistants to deliver scalable group airport shuttle services that simplify multi-passenger logistics for conferences, incentive trips, and team offsites worldwide.</p>
+                </div>
+                <div class="nr-services-corporate__features">
+                    <div class="nr-services-corporate__feature">
+                        <div class="nr-services-corporate__feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+                        </div>
+                        <div class="nr-services-corporate__feature-text">
+                            <h3>Centralized Billing</h3>
+                            <p>Consolidate all group shuttle expenses under a single corporate account with detailed per-event invoicing. Our billing platform integrates with your travel management company for seamless reconciliation and cost allocation across departments.</p>
+                        </div>
+                    </div>
+                    <div class="nr-services-corporate__feature">
+                        <div class="nr-services-corporate__feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                        </div>
+                        <div class="nr-services-corporate__feature-text">
+                            <h3>Priority Dispatch</h3>
+                            <p>Corporate accounts receive guaranteed vehicle availability during peak conference seasons and high-demand travel periods. Your shuttle fleet is pre-positioned and confirmed well in advance, eliminating last-minute scrambles during large-scale corporate events.</p>
+                        </div>
+                    </div>
+                    <div class="nr-services-corporate__feature">
+                        <div class="nr-services-corporate__feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                        </div>
+                        <div class="nr-services-corporate__feature-text">
+                            <h3>Duty of Care</h3>
+                            <p>Real-time GPS tracking and manifest verification ensure every employee is accounted for from airport arrival to hotel check-in. Our group shuttle operations provide the visibility and documentation your risk management team requires for corporate travel compliance.</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="/corporate-transportation/" class="nr-services-corporate__button">Explore Corporate Solutions <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
             </div>
         </div>
     </section>
@@ -173,9 +191,11 @@
         <div class="nr-services-faq__container">
             <header class="nr-services-faq__header"><h2 class="nr-services-faq__heading">Frequently Asked Questions</h2><p class="nr-services-faq__intro">Everything you need to know about group airport shuttles.</p></header>
             <div class="nr-services-faq__list">
-                <details class="nr-services-faq__item" open><summary class="nr-services-faq__question"><span class="nr-services-faq__question-text">Where will the bus meet us?</span><span class="nr-services-faq__question-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span></summary><div class="nr-services-faq__answer"><p class="nr-services-faq__answer-text">Due to airport regulations, buses stage in commercial lots. Our greeters will meet you at baggage claim and guide you to the loading zone.</p></div></details>
-                <details class="nr-services-faq__item"><summary class="nr-services-faq__question"><span class="nr-services-faq__question-text">How much luggage can we bring?</span><span class="nr-services-faq__question-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span></summary><div class="nr-services-faq__answer"><p class="nr-services-faq__answer-text">Our motorcoaches feature large underbelly bays perfect for heavy luggage, trade show materials, and equipment.</p></div></details>
-                <details class="nr-services-faq__item"><summary class="nr-services-faq__question"><span class="nr-services-faq__question-text">What happens if a flight is delayed?</span><span class="nr-services-faq__question-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span></summary><div class="nr-services-faq__answer"><p class="nr-services-faq__answer-text">We track all flights. For small delays, we may hold the shuttle; for major delays, we can dispatch a relief vehicle.</p></div></details>
+                <details class="nr-services-faq__item" open><summary class="nr-services-faq__question"><span class="nr-services-faq__question-text">Where will the bus meet us?</span><span class="nr-services-faq__question-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span></summary><div class="nr-services-faq__answer"><p class="nr-services-faq__answer-text">Due to airport regulations, buses stage in commercial lots. Our greeters will meet you at baggage claim and guide you to the loading zone. At most major airports, the shuttle pulls up to the designated commercial vehicle area within minutes of your group being fully assembled.</p></div></details>
+                <details class="nr-services-faq__item"><summary class="nr-services-faq__question"><span class="nr-services-faq__question-text">How much luggage can we bring?</span><span class="nr-services-faq__question-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span></summary><div class="nr-services-faq__answer"><p class="nr-services-faq__answer-text">Our motorcoaches feature large underbelly bays perfect for heavy luggage, trade show materials, and equipment. Each full-size motorcoach accommodates approximately 56 full-size suitcases in under-floor compartments, and our greeters assist with loading to ensure nothing is left behind.</p></div></details>
+                <details class="nr-services-faq__item"><summary class="nr-services-faq__question"><span class="nr-services-faq__question-text">What happens if a flight is delayed?</span><span class="nr-services-faq__question-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span></summary><div class="nr-services-faq__answer"><p class="nr-services-faq__answer-text">We track all flights in real time. For small delays, we may hold the shuttle; for major delays, we can dispatch a relief vehicle for the delayed subgroup. Our dispatch center monitors every incoming flight so your event logistics stay on schedule regardless of airline disruptions.</p></div></details>
+                <details class="nr-services-faq__item"><summary class="nr-services-faq__question"><span class="nr-services-faq__question-text">Can we book multiple shuttles for staggered arrivals?</span><span class="nr-services-faq__question-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span></summary><div class="nr-services-faq__answer"><p class="nr-services-faq__answer-text">Absolutely. Staggered arrivals are our specialty. We build a shuttle schedule aligned with your flight manifest, dispatching vehicles in waves as groups arrive. Each wave has its own greeter and headcount verification, so no one waits longer than necessary at the terminal.</p></div></details>
+                <details class="nr-services-faq__item"><summary class="nr-services-faq__question"><span class="nr-services-faq__question-text">Do you provide on-board Wi-Fi and refreshments?</span><span class="nr-services-faq__question-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span></summary><div class="nr-services-faq__answer"><p class="nr-services-faq__answer-text">Full-size motorcoaches come equipped with Wi-Fi, a PA system, and restrooms. We can also arrange bottled water, branded signage, and welcome packets upon request. For premium corporate events, we offer upgraded hospitality packages including snacks and beverage service on board.</p></div></details>
             </div>
             <div class="nr-services-faq__cta"><h3 class="nr-services-faq__cta-heading">Ready to move your group?</h3><p class="nr-services-faq__cta-text">Our logistics team is standing by to plan your airport transfers.</p><a href="tel:+18887473887" class="nr-services-faq__cta-btn">Contact Us <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a></div>
         </div>
@@ -186,8 +206,6 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Service","serviceType":"Group Airport Shuttle","name":"Group Airport Shuttle Service Worldwide","description":"Private group airport transportation with synchronized shuttle services for corporate groups, conferences, and teams. Flight tracking, meet & greet, and motorcoach options.","provider":{"@type":"Organization","name":"Nebo Rides","telephone":"1-888-747-3887","url":"https://neborides.com"},"areaServed":[{"@type":"Airport","name":"London Heathrow","iataCode":"LHR"},{"@type":"Airport","name":"New York JFK","iataCode":"JFK"},{"@type":"Airport","name":"Los Angeles LAX","iataCode":"LAX"},{"@type":"Airport","name":"Dubai International","iataCode":"DXB"}],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Group Shuttle Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Sprinter Group Transfer"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Mini-Coach Shuttle"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Motorcoach Airport Transfer"}}]}}
 </script>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Where will the bus meet us?","acceptedAnswer":{"@type":"Answer","text":"Due to airport regulations, buses stage in commercial lots. Our greeters will meet you at baggage claim and guide you to the loading zone."}},{"@type":"Question","name":"How much luggage can we bring?","acceptedAnswer":{"@type":"Answer","text":"Our motorcoaches feature large underbelly bays perfect for heavy luggage, trade show materials, and equipment."}},{"@type":"Question","name":"What happens if a flight is delayed?","acceptedAnswer":{"@type":"Answer","text":"We track all flights. For small delays, we may hold the shuttle; for major delays, we can dispatch a relief vehicle."}}]}
-</script>
+<!-- FAQ JSON-LD handled by Rank Math Pro -->
 </body>
 </html>

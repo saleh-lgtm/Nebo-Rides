@@ -17,111 +17,6 @@
     <link rel="stylesheet" href="global-styles.css">
     <link rel="stylesheet" href="faq-section.css">
 
-    <!-- Corporate Account Management Section Styles -->
-    <style>
-        /* ========================================
-           CORPORATE ACCOUNT MANAGEMENT
-           ======================================== */
-        .nr-services-management {
-            padding: 80px 0;
-            background: var(--nr-ivory);
-        }
-
-        .nr-services-management__container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
-
-        .nr-services-management__header {
-            text-align: center;
-            max-width: 720px;
-            margin: 0 auto 48px;
-        }
-
-        .nr-services-management__heading {
-            font-size: clamp(28px, 4vw, 36px);
-            font-weight: 700;
-            color: var(--nr-navy);
-            margin: 0 0 16px;
-            line-height: 1.2;
-        }
-
-        .nr-services-management__intro {
-            font-size: 16px;
-            color: var(--nr-body);
-            line-height: 1.6;
-            margin: 0;
-        }
-
-        .nr-services-management__grid {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            gap: 24px;
-        }
-
-        @media (min-width: 768px) {
-            .nr-services-management__grid {
-                grid-template-columns: repeat(3, 1fr);
-            }
-        }
-
-        .nr-services-management__card {
-            background: var(--nr-white);
-            padding: 32px;
-            border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
-            position: relative;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .nr-services-management__card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-        }
-
-        .nr-services-management__card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 4px;
-            background: var(--nr-navy);
-            border-radius: 12px 12px 0 0;
-        }
-
-        .nr-services-management__card-icon {
-            width: 56px;
-            height: 56px;
-            background: linear-gradient(135deg, var(--nr-navy) 0%, #2d3548 100%);
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 20px;
-        }
-
-        .nr-services-management__card-icon svg {
-            width: 28px;
-            height: 28px;
-            stroke: var(--nr-white);
-        }
-
-        .nr-services-management__card-title {
-            font-size: 18px;
-            font-weight: 600;
-            color: var(--nr-navy);
-            margin: 0 0 12px;
-        }
-
-        .nr-services-management__card-desc {
-            font-size: 14px;
-            color: var(--nr-body);
-            line-height: 1.6;
-            margin: 0;
-        }
-    </style>
 </head>
 <body>
 <div class="nr-page">
@@ -199,6 +94,9 @@
                 </li>
                 <li class="nr-toc__item">
                     <a href="#geo" class="nr-toc__link">Service Locations</a>
+                </li>
+                <li class="nr-toc__item">
+                    <a href="#corporate" class="nr-toc__link">Corporate Solutions</a>
                 </li>
                 <li class="nr-toc__item">
                     <a href="#faq" class="nr-toc__link">FAQ</a>
@@ -447,7 +345,7 @@
 
             <!-- Fluent Form Embed -->
             <div class="nr-services-cta__form">
-                [fluentform id="6"]
+                [fluentform id="3"]
             </div>
 
             <div class="nr-services-cta__trust">
@@ -562,52 +460,46 @@
     </section>
 
     <!-- ========================================
-         CORPORATE ACCOUNT MANAGEMENT
+         SERVICES CORPORATE (B2B Focus)
          ======================================== -->
-    <section class="nr-services-management" id="management">
-        <div class="nr-services-management__container">
-            <header class="nr-services-management__header">
-                <h2 class="nr-services-management__heading">Unified Mobility Management</h2>
-                <p class="nr-services-management__intro">Enterprise-grade tools for travel managers and finance teams.</p>
-            </header>
-
-            <div class="nr-services-management__grid">
-                <!-- Card 1: Consolidated Billing -->
-                <div class="nr-services-management__card">
-                    <div class="nr-services-management__card-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                            <polyline points="14 2 14 8 20 8"></polyline>
-                            <line x1="16" y1="13" x2="8" y2="13"></line>
-                            <line x1="16" y1="17" x2="8" y2="17"></line>
-                        </svg>
-                    </div>
-                    <h3 class="nr-services-management__card-title">Consolidated Billing</h3>
-                    <p class="nr-services-management__card-desc">Unified monthly reporting for streamlined expense management. Cost center allocation, department-level breakdowns, and automated receipt delivery.</p>
+    <section class="nr-services-corporate" id="corporate">
+        <div class="nr-services-corporate__container">
+            <div class="nr-services-corporate__content">
+                <div class="nr-services-corporate__text">
+                    <span class="nr-services-corporate__label">For Corporate Travel</span>
+                    <h2 class="nr-services-corporate__heading">Executive Car Service Programs for Corporate Travel Managers</h2>
+                    <p class="nr-services-corporate__intro">Nebo Rides partners with corporate travel managers to deliver consistent, premium executive car service across every business trip, client meeting, and airport transfer in your organization's travel program, backed by enterprise-grade account management and transparent reporting.</p>
                 </div>
-
-                <!-- Card 2: Dedicated Concierge -->
-                <div class="nr-services-management__card">
-                    <div class="nr-services-management__card-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                            <circle cx="12" cy="7" r="4"></circle>
-                        </svg>
+                <div class="nr-services-corporate__features">
+                    <div class="nr-services-corporate__feature">
+                        <div class="nr-services-corporate__feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+                        </div>
+                        <div class="nr-services-corporate__feature-text">
+                            <h3>Centralized Billing</h3>
+                            <p>Consolidate all executive car service expenditures into a single monthly invoice with department-level cost allocation and automated receipt delivery. Our billing platform integrates with SAP Concur, Certify, and major expense management tools for effortless reconciliation across your entire executive travel program.</p>
+                        </div>
                     </div>
-                    <h3 class="nr-services-management__card-title">Dedicated Concierge</h3>
-                    <p class="nr-services-management__card-desc">A single point of contact for complex itinerary planning. Your concierge knows your executives' preferences and handles logistics proactively.</p>
-                </div>
-
-                <!-- Card 3: Priority Dispatch -->
-                <div class="nr-services-management__card">
-                    <div class="nr-services-management__card-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
-                        </svg>
+                    <div class="nr-services-corporate__feature">
+                        <div class="nr-services-corporate__feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                        </div>
+                        <div class="nr-services-corporate__feature-text">
+                            <h3>Priority Dispatch</h3>
+                            <p>Corporate account holders receive guaranteed vehicle availability and priority placement during peak travel periods, conferences, and board meeting weeks. Our dedicated concierge team learns your executives' preferences and proactively manages complex multi-leg itineraries without requiring individual intervention.</p>
+                        </div>
                     </div>
-                    <h3 class="nr-services-management__card-title">Priority Dispatch</h3>
-                    <p class="nr-services-management__card-desc">Executive-level priority for all corporate account holders during peak travel events. Guaranteed availability when it matters most.</p>
+                    <div class="nr-services-corporate__feature">
+                        <div class="nr-services-corporate__feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                        </div>
+                        <div class="nr-services-corporate__feature-text">
+                            <h3>Duty of Care</h3>
+                            <p>Every chauffeur undergoes rigorous background verification, defensive driving certification, and executive etiquette training to ensure your leadership team travels with complete safety and discretion. Real-time GPS tracking, $5M commercial liability coverage, and NDA-compliant protocols fulfill your organization's duty-of-care requirements for C-suite travel.</p>
+                        </div>
+                    </div>
                 </div>
+                <a href="/corporate-transportation/" class="nr-services-corporate__button">Explore Corporate Car Service Programs</a>
             </div>
         </div>
     </section>
@@ -860,54 +752,7 @@
 }
 </script>
 
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What is the difference between an executive car service and a standard car service?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Executive car service prioritizes vetted professional chauffeurs, late-model luxury vehicles, and advanced corporate protocols like duty of care, discretion, and mobile office amenities that standard services lack."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Does the car service include Wi-Fi for working on the go?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. All Nebo Rides executive sedans and SUVs are equipped with complimentary high-speed Wi-Fi and power outlets to ensure productivity remains uninterrupted."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Can I set up a corporate account for my company?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Absolutely. We offer specialized corporate account programs that include centralized billing, priority dispatch, and dedicated account management for frequent business travelers."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "How far in advance should I book executive car service?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "For guaranteed vehicle selection and premium sedan availability, we recommend booking 24-48 hours in advance. Corporate account holders receive priority dispatch for same-day requests."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Are your chauffeurs trained in executive protection?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. All chauffeurs complete training in situational awareness, defensive driving, and discretion protocols. They understand information security and maintain strict confidentiality."
-            }
-        }
-    ]
-}
-</script>
+<!-- FAQ JSON-LD handled by Rank Math Pro -->
 
 </body>
 </html>
