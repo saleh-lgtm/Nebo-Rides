@@ -24,7 +24,7 @@
 }
 
 .nr-services-faq__heading {
-    font-size: 28px;
+    font-size: var(--nr-text-h3);
     font-weight: 500;
     color: var(--nr-navy, #1E2430);
     line-height: 1.2;
@@ -33,7 +33,7 @@
 }
 
 .nr-services-faq__intro {
-    font-size: 16px;
+    font-size: var(--nr-text-md);
     color: var(--nr-body, #47536B);
     line-height: 1.6;
     margin: 0 auto;
@@ -82,7 +82,7 @@
 }
 
 .nr-services-faq__question-text {
-    font-size: 17px;
+    font-size: var(--nr-text-base);
     font-weight: 500;
     color: var(--nr-navy, #1E2430);
     line-height: 1.4;
@@ -122,7 +122,7 @@
 
 .nr-services-faq__answer-text {
     padding: 0 28px 24px 28px;
-    font-size: 16px;
+    font-size: var(--nr-text-md);
     color: var(--nr-body, #47536B);
     line-height: 1.7;
     margin: 0;
@@ -201,7 +201,7 @@ details.nr-services-faq__item[open] .nr-services-faq__question-icon {
 }
 
 .nr-services-faq__answer li {
-    font-size: 16px;
+    font-size: var(--nr-text-md);
     color: var(--nr-body, #47536B);
     line-height: 1.7;
     margin-bottom: 8px;
@@ -256,7 +256,7 @@ details.nr-services-faq__item[open] .nr-services-faq__question-icon {
 /* Question text (H3) */
 .nr-services-faq .gb-accordion__toggle .gbp-card__title,
 .nr-services-faq .gb-accordion__toggle h3 {
-    font-size: 17px !important;
+    font-size: var(--nr-text-base) !important;
     font-weight: 500 !important;
     color: var(--nr-navy, #1E2430) !important;
     line-height: 1.4;
@@ -321,7 +321,7 @@ details.nr-services-faq__item[open] .nr-services-faq__question-icon {
 
 /* Answer text */
 .nr-services-faq .gb-accordion__content p {
-    font-size: 16px;
+    font-size: var(--nr-text-md);
     color: var(--nr-body, #47536B);
     line-height: 1.7;
     margin: 0;
@@ -347,7 +347,7 @@ details.nr-services-faq__item[open] .nr-services-faq__question-icon {
 }
 
 .nr-services-faq .gb-accordion__content li {
-    font-size: 16px;
+    font-size: var(--nr-text-md);
     color: var(--nr-body, #47536B);
     line-height: 1.7;
     margin-bottom: 8px;
@@ -364,14 +364,14 @@ details.nr-services-faq__item[open] .nr-services-faq__question-icon {
 }
 
 .nr-services-faq__cta-heading {
-    font-size: 24px;
+    font-size: var(--nr-text-xl);
     font-weight: 500;
     color: var(--nr-navy, #1E2430);
     margin: 0 0 12px 0;
 }
 
 .nr-services-faq__cta-text {
-    font-size: 16px;
+    font-size: var(--nr-text-md);
     color: var(--nr-body, #47536B);
     margin: 0 0 24px 0;
 }
@@ -386,7 +386,7 @@ details.nr-services-faq__item[open] .nr-services-faq__question-icon {
     color: var(--nr-white, #FFFFFF);
     border: 2px solid var(--nr-navy, #1E2430);
     border-radius: 50px;
-    font-size: 16px;
+    font-size: var(--nr-text-md);
     font-weight: 500;
     text-decoration: none;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -638,7 +638,7 @@ details.nr-services-faq__item[open] .nr-services-faq__question-icon {
     left: 28px;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 14px;
+    font-size: var(--nr-text-caption);
     font-weight: 600;
     color: var(--nr-taupe, #B7AFA3);
     letter-spacing: 1px;
@@ -671,11 +671,11 @@ details.nr-services-faq__item[open] .nr-services-faq__question-icon {
     }
 
     .nr-services-faq__heading {
-        font-size: 36px;
+        font-size: var(--nr-text-h2);
     }
 
     .nr-services-faq__intro {
-        font-size: 17px;
+        font-size: var(--nr-text-base);
     }
 
     .nr-services-faq .gb-accordion {
@@ -688,7 +688,7 @@ details.nr-services-faq__item[open] .nr-services-faq__question-icon {
 
     .nr-services-faq .gb-accordion__toggle .gbp-card__title,
     .nr-services-faq .gb-accordion__toggle h3 {
-        font-size: 18px !important;
+        font-size: var(--nr-text-lg) !important;
     }
 
     .nr-services-faq .gb-accordion__content {
@@ -702,7 +702,7 @@ details.nr-services-faq__item[open] .nr-services-faq__question-icon {
 
     .nr-services-faq .gb-accordion__content p,
     .nr-services-faq .gb-accordion__content li {
-        font-size: 17px;
+        font-size: var(--nr-text-base);
     }
 
     /* CTA section */
@@ -712,7 +712,7 @@ details.nr-services-faq__item[open] .nr-services-faq__question-icon {
     }
 
     .nr-services-faq__cta-heading {
-        font-size: 28px;
+        font-size: var(--nr-text-h3);
     }
 
     /* Numbered variant */
@@ -722,7 +722,7 @@ details.nr-services-faq__item[open] .nr-services-faq__question-icon {
 
     .nr-services-faq--numbered .gb-accordion__toggle::before {
         left: 32px;
-        font-size: 15px;
+        font-size: var(--nr-text-sm);
     }
 
     /* Minimal variant */
@@ -756,12 +756,12 @@ details.nr-services-faq__item[open] .nr-services-faq__question-icon {
     }
 
     .nr-services-faq__heading {
-        font-size: 42px;
+        font-size: var(--nr-text-3xl);
         margin-bottom: 20px;
     }
 
     .nr-services-faq__intro {
-        font-size: 18px;
+        font-size: var(--nr-text-lg);
         max-width: 700px;
     }
 
@@ -771,7 +771,7 @@ details.nr-services-faq__item[open] .nr-services-faq__question-icon {
 
     .nr-services-faq .gb-accordion__toggle .gbp-card__title,
     .nr-services-faq .gb-accordion__toggle h3 {
-        font-size: 19px !important;
+        font-size: var(--nr-text-sub) !important;
     }
 
     .nr-services-faq .gb-accordion__toggle-icon {
@@ -791,12 +791,12 @@ details.nr-services-faq__item[open] .nr-services-faq__question-icon {
     }
 
     .nr-services-faq__cta-heading {
-        font-size: 32px;
+        font-size: var(--nr-text-2xl);
     }
 
     .nr-services-faq__cta-btn {
         padding: 18px 40px;
-        font-size: 17px;
+        font-size: var(--nr-text-base);
     }
 }
 
