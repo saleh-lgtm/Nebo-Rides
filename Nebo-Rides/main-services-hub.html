@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta -->
+    <title>Global Chauffeur & Car Services: Comprehensive Ground Transport</title>
+    <meta name="description" content="The world's finest ground transportation. Nebo Rides offers a complete suite of chauffeur services including Airport, Corporate, Event, and Security transport in 500+ cities.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Global Styles -->
+    <link rel="stylesheet" href="global-styles.css">
+    <link rel="stylesheet" href="faq-section.css">
+
+    <style>
+        /* Hub Services Image Grid */
+        .nr-services-ecosystem { padding: 80px 0; background: var(--nr-ivory); }
+        .nr-services-ecosystem__container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+        .nr-services-ecosystem__header { text-align: center; max-width: 720px; margin: 0 auto 48px; }
+        .nr-services-ecosystem__heading { font-size: clamp(28px, 4vw, 36px); font-weight: 700; color: var(--nr-navy); margin: 0 0 16px; line-height: 1.2; }
+        .nr-services-ecosystem__grid { display: grid; grid-template-columns: repeat(1, 1fr); gap: 24px; }
+        @media (min-width: 768px) { .nr-services-ecosystem__grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (min-width: 1024px) { .nr-services-ecosystem__grid { grid-template-columns: repeat(3, 1fr); } }
+        .nr-services-ecosystem__card { background: var(--nr-white); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.06); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .nr-services-ecosystem__card:hover { transform: translateY(-4px); box-shadow: 0 8px 32px rgba(0,0,0,0.1); }
+        .nr-services-ecosystem__card-image { aspect-ratio: 16/9; overflow: hidden; }
+        .nr-services-ecosystem__card-image img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease; }
+        .nr-services-ecosystem__card:hover .nr-services-ecosystem__card-image img { transform: scale(1.05); }
+        .nr-services-ecosystem__card-content { padding: 24px; }
+        .nr-services-ecosystem__card-title { font-size: 18px; font-weight: 600; color: var(--nr-navy); margin: 0 0 8px; }
+        .nr-services-ecosystem__card-desc { font-size: 14px; color: var(--nr-body); line-height: 1.6; margin: 0 0 16px; }
+        .nr-services-ecosystem__card-link { font-size: 14px; font-weight: 600; color: var(--nr-navy); text-decoration: none; display: inline-flex; align-items: center; gap: 6px; transition: gap 0.3s ease; }
+        .nr-services-ecosystem__card-link:hover { gap: 10px; }
+        .nr-services-ecosystem__card-link svg { width: 16px; height: 16px; }
+
+        /* Why Choose / Advantages */
+        .nr-services-advantages { padding: 80px 0; background: var(--nr-ivory); }
+        .nr-services-advantages__container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+        .nr-services-advantages__header { text-align: center; max-width: 720px; margin: 0 auto 48px; }
+        .nr-services-advantages__heading { font-size: clamp(28px, 4vw, 36px); font-weight: 700; color: var(--nr-navy); margin: 0 0 16px; line-height: 1.2; }
+        .nr-services-advantages__intro { font-size: 16px; color: var(--nr-body); line-height: 1.6; margin: 0; }
+        .nr-services-advantages__grid { display: grid; grid-template-columns: repeat(1, 1fr); gap: 24px; }
+        @media (min-width: 768px) { .nr-services-advantages__grid { grid-template-columns: repeat(3, 1fr); } }
+        .nr-services-advantages__card { background: var(--nr-white); padding: 32px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); position: relative; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .nr-services-advantages__card:hover { transform: translateY(-4px); box-shadow: 0 8px 32px rgba(0,0,0,0.1); }
+        .nr-services-advantages__card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: var(--nr-navy); border-radius: 12px 12px 0 0; }
+        .nr-services-advantages__card-number { width: 40px; height: 40px; background: var(--nr-navy); color: var(--nr-white); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: 600; margin-bottom: 20px; }
+        .nr-services-advantages__card-title { font-size: 18px; font-weight: 600; color: var(--nr-navy); margin: 0 0 12px; }
+        .nr-services-advantages__card-desc { font-size: 14px; color: var(--nr-body); line-height: 1.6; margin: 0; }
+    </style>
+</head>
+<body>
+<div class="nr-page">
+
+    <!-- ========================================
+         HERO SECTION
+         ======================================== -->
+    <section class="nr-chauffeur-hero">
+        <img class="nr-chauffeur-hero__bg" src="https://wordpress-1571592-6118951.cloudwaysapps.com/wp-content/uploads/2026/01/Worldwide-Airport-Transfers.png" alt="World-class chauffeur services for global ground transportation" loading="eager">
+        <div class="nr-chauffeur-hero__border"></div>
+
+        <div class="nr-chauffeur-hero__container">
+            <div class="nr-chauffeur-hero__badge">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                <span>Elite Global Mobility</span>
+            </div>
+
+            <h1 class="nr-chauffeur-hero__heading">
+                World-Class Chauffeur Services: <span class="nr-chauffeur-hero__heading-accent">Every Mile, Mastered</span>
+            </h1>
+
+            <p class="nr-chauffeur-hero__sub">
+                One partner for the entire journey. Nebo Rides delivers a comprehensive ecosystem of ground transportation solutions. From the tarmac to the boardroom, from the wedding to the roadshow, we move the world's most demanding passengers.
+            </p>
+
+            <div class="nr-chauffeur-hero__cta">
+                <a href="#services" class="nr-chauffeur-hero__btn nr-chauffeur-hero__btn--primary">
+                    Search All Services
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#book" class="nr-chauffeur-hero__btn nr-chauffeur-hero__btn--secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><line x1="20" y1="8" x2="20" y2="14"/><line x1="23" y1="11" x2="17" y2="11"/></svg>
+                    Open Account
+                </a>
+            </div>
+
+            <div class="nr-chauffeur-hero__trust">
+                <div class="nr-chauffeur-hero__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    <span>500+ Cities</span>
+                </div>
+                <div class="nr-chauffeur-hero__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    <span>Vetted Chauffeurs</span>
+                </div>
+                <div class="nr-chauffeur-hero__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <span>24/7 Dispatch</span>
+                </div>
+                <div class="nr-chauffeur-hero__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    <span>Full Spectrum</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         TABLE OF CONTENTS
+         ======================================== -->
+    <nav class="nr-toc" aria-label="Page contents">
+        <div class="nr-container">
+            <ul class="nr-toc__list">
+                <li class="nr-toc__item">
+                    <a href="#summary" class="nr-toc__link">Executive Summary</a>
+                </li>
+                <li class="nr-toc__item">
+                    <a href="#protocol" class="nr-toc__link">The Service Protocol</a>
+                </li>
+                <li class="nr-toc__item">
+                    <a href="#services" class="nr-toc__link">Our Core Pillars</a>
+                </li>
+                <li class="nr-toc__item">
+                    <a href="#fleet" class="nr-toc__link">Global Fleet</a>
+                </li>
+                <li class="nr-toc__item">
+                    <a href="#geo" class="nr-toc__link">Global Reach</a>
+                </li>
+                <li class="nr-toc__item">
+                    <a href="#faq" class="nr-toc__link">FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ========================================
+         EXECUTIVE SUMMARY (Trust Card)
+         ======================================== -->
+    <section class="nr-services-pillars" id="summary" aria-label="Executive Summary">
+        <div class="nr-services-pillars__container">
+            <div class="nr-services-pillars__header">
+                <span class="nr-services-pillars__badge">Verified Service Standards</span>
+                <h2>Executive Summary: The Specialist</h2>
+                <p>We don't do "rideshare." We do precision logistics.</p>
+            </div>
+            <div class="nr-services-pillars__grid">
+                <div class="nr-services-pillars__pillar">
+                    <div class="nr-services-pillars__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                        </svg>
+                    </div>
+                    <h3>Full Spectrum</h3>
+                    <p>We handle everything from a simple airport pickup to a 50-bus conference convoy.</p>
+                </div>
+                <div class="nr-services-pillars__pillar">
+                    <div class="nr-services-pillars__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Uniform Quality</h3>
+                    <p>A ride in Singapore feels like a ride in San Francisco. Same dress code. Same water. Same silence.</p>
+                </div>
+                <div class="nr-services-pillars__pillar">
+                    <div class="nr-services-pillars__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                    </div>
+                    <h3>Unified Platform</h3>
+                    <p>One app and one portal to manage bookings across all service types and locations.</p>
+                </div>
+                <div class="nr-services-pillars__pillar">
+                    <div class="nr-services-pillars__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                    </div>
+                    <h3>Human Dispatch</h3>
+                    <p>Real agents, 24/7/365. No chatbots when you are stuck at the curb.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICES PROTOCOL (E-E-A-T)
+         ======================================== -->
+    <section class="nr-services-protocol" id="protocol" aria-label="Service Protocol">
+        <div class="nr-services-protocol__container">
+            <div class="nr-services-protocol__header">
+                <div class="nr-services-protocol__label">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
+                    <span>Service Protocol</span>
+                </div>
+                <h2>The Service Protocol: Engineering Excellence</h2>
+                <p>We built our reputation on doing the hard things well.</p>
+            </div>
+
+            <div class="nr-services-protocol__blocks">
+                <div class="nr-services-protocol__block nr-services-protocol__block--expertise">
+                    <div class="nr-services-protocol__block-line" aria-hidden="true"></div>
+                    <span class="nr-services-protocol__block-badge">Expertise</span>
+                    <h3>Specialization</h3>
+                    <p>We don't use generalists. Our roadshow drivers are roadshow experts. Our security drivers are security experts. Every chauffeur is matched to the mission based on their specific training and experience, ensuring you always have the right specialist behind the wheel for your exact requirements.</p>
+                </div>
+                <div class="nr-services-protocol__block nr-services-protocol__block--trust">
+                    <div class="nr-services-protocol__block-line" aria-hidden="true"></div>
+                    <span class="nr-services-protocol__block-badge">Trustworthiness</span>
+                    <h3>Transparency</h3>
+                    <p>No hidden fees. No surge pricing. You know the cost before the wheel turns. Our pricing structure is clear, consistent, and locked in at the time of booking. Whether demand is high or low, your rate remains the same — because trust is built on predictability.</p>
+                </div>
+                <div class="nr-services-protocol__block nr-services-protocol__block--authority">
+                    <div class="nr-services-protocol__block-line" aria-hidden="true"></div>
+                    <span class="nr-services-protocol__block-badge">Authoritativeness</span>
+                    <h3>Duty of Care</h3>
+                    <p>We are the preferred supplier for Fortune 500s because we take safety more seriously than anyone else. Every vehicle is inspected, every chauffeur is vetted, and every trip is tracked. Our duty of care protocols meet the strictest corporate travel policies in the industry.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICE ECOSYSTEM (Image Grid)
+         ======================================== -->
+    <section class="nr-services-ecosystem" id="services" aria-label="Our Service Pillars">
+        <div class="nr-services-ecosystem__container">
+            <div class="nr-services-ecosystem__header">
+                <h2 class="nr-services-ecosystem__heading">Our Service Pillars</h2>
+            </div>
+
+            <div class="nr-services-ecosystem__grid">
+                <!-- Card 1: Airport & FBO -->
+                <div class="nr-services-ecosystem__card">
+                    <div class="nr-services-ecosystem__card-image">
+                        <img src="https://placehold.co/600x400" alt="Airport and FBO chauffeur transfer services" loading="lazy">
+                    </div>
+                    <div class="nr-services-ecosystem__card-content">
+                        <h3 class="nr-services-ecosystem__card-title">Airport & FBO</h3>
+                        <p class="nr-services-ecosystem__card-desc">Commercial and private aviation transfers.</p>
+                        <a href="#" class="nr-services-ecosystem__card-link">
+                            View Service
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 2: Corporate Travel -->
+                <div class="nr-services-ecosystem__card">
+                    <div class="nr-services-ecosystem__card-image">
+                        <img src="https://placehold.co/600x400" alt="Corporate executive travel and business logistics" loading="lazy">
+                    </div>
+                    <div class="nr-services-ecosystem__card-content">
+                        <h3 class="nr-services-ecosystem__card-title">Corporate Travel</h3>
+                        <p class="nr-services-ecosystem__card-desc">Business logistics and executive transport.</p>
+                        <a href="#" class="nr-services-ecosystem__card-link">
+                            View Service
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 3: Hourly / As-Directed -->
+                <div class="nr-services-ecosystem__card">
+                    <div class="nr-services-ecosystem__card-image">
+                        <img src="https://placehold.co/600x400" alt="Hourly as-directed chauffeur services" loading="lazy">
+                    </div>
+                    <div class="nr-services-ecosystem__card-content">
+                        <h3 class="nr-services-ecosystem__card-title">Hourly / As-Directed</h3>
+                        <p class="nr-services-ecosystem__card-desc">Flexible time-based chauffeur services.</p>
+                        <a href="#" class="nr-services-ecosystem__card-link">
+                            View Service
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 4: Events & Groups -->
+                <div class="nr-services-ecosystem__card">
+                    <div class="nr-services-ecosystem__card-image">
+                        <img src="https://placehold.co/600x400" alt="Event and group transportation logistics" loading="lazy">
+                    </div>
+                    <div class="nr-services-ecosystem__card-content">
+                        <h3 class="nr-services-ecosystem__card-title">Events & Groups</h3>
+                        <p class="nr-services-ecosystem__card-desc">Buses, shuttles, and wedding logistics.</p>
+                        <a href="#" class="nr-services-ecosystem__card-link">
+                            View Service
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 5: Exclusive Services -->
+                <div class="nr-services-ecosystem__card">
+                    <div class="nr-services-ecosystem__card-image">
+                        <img src="https://placehold.co/600x400" alt="Exclusive VIP security and luxury chauffeur services" loading="lazy">
+                    </div>
+                    <div class="nr-services-ecosystem__card-content">
+                        <h3 class="nr-services-ecosystem__card-title">Exclusive Services</h3>
+                        <p class="nr-services-ecosystem__card-desc">Security, armored, and VIP protection.</p>
+                        <a href="#" class="nr-services-ecosystem__card-link">
+                            View Service
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 6: Specialty & Leisure -->
+                <div class="nr-services-ecosystem__card">
+                    <div class="nr-services-ecosystem__card-image">
+                        <img src="https://placehold.co/600x400" alt="Specialty and leisure chauffeur services including tours" loading="lazy">
+                    </div>
+                    <div class="nr-services-ecosystem__card-content">
+                        <h3 class="nr-services-ecosystem__card-title">Specialty & Leisure</h3>
+                        <p class="nr-services-ecosystem__card-desc">Tours, medical, pet, and family transport.</p>
+                        <a href="#" class="nr-services-ecosystem__card-link">
+                            View Service
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FLEET SECTION
+         ======================================== -->
+    <section class="nr-services-fleet" id="fleet">
+        <div class="nr-services-fleet__container">
+            <header class="nr-services-fleet__header">
+                <h2 class="nr-services-fleet__heading">A Vehicle for Every Mission</h2>
+                <p class="nr-services-fleet__intro">From executive sedans to motorcoaches, our fleet is curated for every occasion and group size.</p>
+            </header>
+
+            <div class="nr-services-fleet__grid">
+                <div class="nr-services-fleet__card">
+                    <div class="nr-services-fleet__card-image">
+                        <img src="https://placehold.co/600x400" alt="Luxury Sedan" loading="lazy">
+                    </div>
+                    <div class="nr-services-fleet__card-content">
+                        <h3 class="nr-services-fleet__card-title">Mercedes-Benz S-Class</h3>
+                        <p class="nr-services-fleet__card-subtitle">The Sedan</p>
+                        <ul class="nr-services-fleet__card-features">
+                            <li>The icon of luxury travel</li>
+                            <li>Whisper-quiet cabin</li>
+                            <li>Rear climate control</li>
+                            <li>Privacy partition available</li>
+                        </ul>
+                        <p class="nr-services-fleet__card-capacity">Up to 2 passengers | 2 bags</p>
+                    </div>
+                </div>
+
+                <div class="nr-services-fleet__card">
+                    <div class="nr-services-fleet__card-image">
+                        <img src="https://placehold.co/600x400" alt="Luxury SUV" loading="lazy">
+                    </div>
+                    <div class="nr-services-fleet__card-content">
+                        <h3 class="nr-services-fleet__card-title">Cadillac Escalade</h3>
+                        <p class="nr-services-fleet__card-subtitle">The SUV</p>
+                        <ul class="nr-services-fleet__card-features">
+                            <li>The capability leader</li>
+                            <li>Massive luggage capacity</li>
+                            <li>Air-suspension comfort</li>
+                            <li>Wi-Fi connectivity</li>
+                        </ul>
+                        <p class="nr-services-fleet__card-capacity">Up to 5 passengers | 5 bags</p>
+                    </div>
+                </div>
+
+                <div class="nr-services-fleet__card">
+                    <div class="nr-services-fleet__card-image">
+                        <img src="https://placehold.co/600x400" alt="Luxury Bus" loading="lazy">
+                    </div>
+                    <div class="nr-services-fleet__card-content">
+                        <h3 class="nr-services-fleet__card-title">Motorcoach</h3>
+                        <p class="nr-services-fleet__card-subtitle">The Bus</p>
+                        <ul class="nr-services-fleet__card-features">
+                            <li>The volume mover</li>
+                            <li>Restroom on board</li>
+                            <li>Climate controlled</li>
+                            <li>PA system available</li>
+                        </ul>
+                        <p class="nr-services-fleet__card-capacity">Up to 56 passengers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         INLINE LEAD CAPTURE (CTA)
+         ======================================== -->
+    <section class="nr-services-cta" id="book">
+        <div class="nr-services-cta__container">
+            <div class="nr-services-cta__badge">
+                <span class="nr-services-cta__badge-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                </span>
+                <span class="nr-services-cta__badge-text">15-Min Response</span>
+            </div>
+
+            <h2 class="nr-services-cta__heading">Start Your Journey</h2>
+            <p class="nr-services-cta__intro">Create a profile to access our global network. Whether you need a single airport transfer or a full corporate travel program, our team will design a solution tailored to your requirements. Submit your request below and receive a personalized proposal within 15 minutes during business hours.</p>
+
+            <div class="nr-services-cta__form">
+                [fluentform id="6"]
+            </div>
+
+            <div class="nr-services-cta__trust">
+                <div class="nr-services-cta__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    <span>500+ Cities</span>
+                </div>
+                <div class="nr-services-cta__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    <span>Vetted Chauffeurs</span>
+                </div>
+                <div class="nr-services-cta__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    <span>All Service Types</span>
+                </div>
+                <div class="nr-services-cta__trust-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <span>24/7 Dispatch</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         GLOBAL COVERAGE (GEO)
+         ======================================== -->
+    <section class="nr-services-coverage" id="geo">
+        <div class="nr-services-coverage__container">
+            <header class="nr-services-coverage__header">
+                <h2 class="nr-services-coverage__heading">500+ Cities. One Standard.</h2>
+                <p class="nr-services-coverage__intro">From London to Tokyo, New York to Dubai. We are where you need us to be.</p>
+            </header>
+
+            <div class="nr-services-coverage__grid">
+                <div class="nr-services-coverage__region">
+                    <h3 class="nr-services-coverage__region-title">New York</h3>
+                    <div class="nr-services-coverage__codes">
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">JFK</span>
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">LGA</span>
+                        <span class="nr-services-coverage__code">TEB</span>
+                    </div>
+                    <p class="nr-geo-description">Wall Street, Midtown, Greenwich | Financial capital of the Americas</p>
+                </div>
+                <div class="nr-services-coverage__region">
+                    <h3 class="nr-services-coverage__region-title">London</h3>
+                    <div class="nr-services-coverage__codes">
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">LHR</span>
+                        <span class="nr-services-coverage__code">FAB</span>
+                    </div>
+                    <p class="nr-geo-description">The City, Mayfair, Canary Wharf | Europe's financial hub</p>
+                </div>
+                <div class="nr-services-coverage__region">
+                    <h3 class="nr-services-coverage__region-title">Dubai</h3>
+                    <div class="nr-services-coverage__codes">
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">DXB</span>
+                        <span class="nr-services-coverage__code">DWC</span>
+                    </div>
+                    <p class="nr-geo-description">DIFC, Downtown, Business Bay | Gateway to the Middle East</p>
+                </div>
+                <div class="nr-services-coverage__region">
+                    <h3 class="nr-services-coverage__region-title">Paris</h3>
+                    <div class="nr-services-coverage__codes">
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">CDG</span>
+                        <span class="nr-services-coverage__code">LBG</span>
+                    </div>
+                    <p class="nr-geo-description">La Défense, Champs-Élysées, Le Bourget | European business capital</p>
+                </div>
+                <div class="nr-services-coverage__region">
+                    <h3 class="nr-services-coverage__region-title">Tokyo</h3>
+                    <div class="nr-services-coverage__codes">
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">NRT</span>
+                        <span class="nr-services-coverage__code nr-services-coverage__code--primary">HND</span>
+                    </div>
+                    <p class="nr-geo-description">Marunouchi, Roppongi, Ginza | Asia-Pacific business hub</p>
+                </div>
+                <div class="nr-services-coverage__region">
+                    <h3 class="nr-services-coverage__region-title">Global Network</h3>
+                    <div class="nr-services-coverage__codes">
+                        <span class="nr-services-coverage__code">SIN</span>
+                        <span class="nr-services-coverage__code">SFO</span>
+                        <span class="nr-services-coverage__code">MIA</span>
+                    </div>
+                    <p class="nr-geo-description">Singapore, San Francisco, Miami | Vetted partner network worldwide</p>
+                </div>
+            </div>
+
+            <div class="nr-services-coverage__legend">
+                <div class="nr-services-coverage__legend-item">
+                    <span class="nr-services-coverage__legend-dot nr-services-coverage__legend-dot--primary"></span>
+                    <span>Primary Hub (Local Teams)</span>
+                </div>
+                <div class="nr-services-coverage__legend-item">
+                    <span class="nr-services-coverage__legend-dot nr-services-coverage__legend-dot--secondary"></span>
+                    <span>Global Partner Network</span>
+                </div>
+            </div>
+
+            <a href="/locations/" class="nr-services-coverage__link">
+                View All Service Locations
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- ========================================
+         WHY CHOOSE (Advantages)
+         ======================================== -->
+    <section class="nr-services-advantages" aria-label="The Nebo Advantage">
+        <div class="nr-services-advantages__container">
+            <div class="nr-services-advantages__header">
+                <h2 class="nr-services-advantages__heading">The Nebo Advantage</h2>
+            </div>
+
+            <div class="nr-services-advantages__grid">
+                <div class="nr-services-advantages__card">
+                    <div class="nr-services-advantages__card-number">1</div>
+                    <h3 class="nr-services-advantages__card-title">Reliability</h3>
+                    <p class="nr-services-advantages__card-desc">We show up. It sounds simple, but it is our obsession. Every vehicle is staged early, every chauffeur is confirmed, and every trip is monitored from dispatch to drop-off.</p>
+                </div>
+                <div class="nr-services-advantages__card">
+                    <div class="nr-services-advantages__card-number">2</div>
+                    <h3 class="nr-services-advantages__card-title">Quality</h3>
+                    <p class="nr-services-advantages__card-desc">New cars. Suited drivers. Professional demeanor. We maintain the highest standards across every vehicle class and every city in our global network.</p>
+                </div>
+                <div class="nr-services-advantages__card">
+                    <div class="nr-services-advantages__card-number">3</div>
+                    <h3 class="nr-services-advantages__card-title">Ease</h3>
+                    <p class="nr-services-advantages__card-desc">We make the complex simple. One account, one invoice, one phone number for ground transportation in 500+ cities worldwide. No friction, no confusion.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FAQ SECTION
+         ======================================== -->
+    <section class="nr-services-faq nr-services-faq--dark" id="faq">
+        <div class="nr-services-faq__container">
+            <header class="nr-services-faq__header">
+                <h2 class="nr-services-faq__heading">Frequently Asked Questions</h2>
+                <p class="nr-services-faq__intro">Everything you need to know about our global chauffeur services.</p>
+            </header>
+
+            <div class="nr-services-faq__list">
+                <details class="nr-services-faq__item" open>
+                    <summary class="nr-services-faq__question">
+                        <span class="nr-services-faq__question-text">Do you operate internationally?</span>
+                        <span class="nr-services-faq__question-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </span>
+                    </summary>
+                    <div class="nr-services-faq__answer">
+                        <p class="nr-services-faq__answer-text">Yes. We are a global service provider with operations in over 500 cities worldwide. From New York to Tokyo, London to Dubai, we deliver the same standard of excellence everywhere.</p>
+                    </div>
+                </details>
+
+                <details class="nr-services-faq__item">
+                    <summary class="nr-services-faq__question">
+                        <span class="nr-services-faq__question-text">Can I book multiple vehicle types?</span>
+                        <span class="nr-services-faq__question-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </span>
+                    </summary>
+                    <div class="nr-services-faq__answer">
+                        <p class="nr-services-faq__answer-text">Yes. You can book a sedan for the CEO and a bus for the team in the same itinerary. Our platform supports mixed-fleet bookings across all vehicle classes and service types.</p>
+                    </div>
+                </details>
+
+                <details class="nr-services-faq__item">
+                    <summary class="nr-services-faq__question">
+                        <span class="nr-services-faq__question-text">Are you available 24/7?</span>
+                        <span class="nr-services-faq__question-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </span>
+                    </summary>
+                    <div class="nr-services-faq__answer">
+                        <p class="nr-services-faq__answer-text">Yes. Our dispatch and support teams never close. Whether it's 3 AM or Christmas Day, we have real human agents ready to assist you with booking, changes, or support.</p>
+                    </div>
+                </details>
+            </div>
+
+            <div class="nr-services-faq__cta">
+                <h3 class="nr-services-faq__cta-heading">Ready to experience the difference?</h3>
+                <p class="nr-services-faq__cta-text">Our team is standing by to discuss your ground transportation needs.</p>
+                <a href="tel:+18887473887" class="nr-services-faq__cta-btn">
+                    Contact Us
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<!-- ========================================
+     JSON-LD STRUCTURED DATA
+     ======================================== -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Global Chauffeur Services",
+    "name": "World-Class Chauffeur Services",
+    "description": "Comprehensive ground transportation ecosystem including airport transfers, corporate travel, event logistics, hourly chauffeur, exclusive VIP services, and specialty leisure transport in 500+ cities worldwide.",
+    "provider": {
+        "@type": "Organization",
+        "name": "Nebo Rides",
+        "telephone": "1-888-747-3887",
+        "url": "https://neborides.com"
+    },
+    "areaServed": {
+        "@type": "Place",
+        "name": "Worldwide (500+ Cities)"
+    },
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Chauffeur Service Categories",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Airport & FBO Transportation"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Corporate & Executive Travel"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Hourly & As-Directed Services"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Event & Group Transportation"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Exclusive VIP Services"
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Specialty & Leisure Transport"
+                }
+            }
+        ]
+    }
+}
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "Do you operate internationally?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We are a global service provider with operations in over 500 cities worldwide."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can I book multiple vehicle types?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. You can book a sedan for the CEO and a bus for the team in the same itinerary."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Are you available 24/7?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Our dispatch and support teams never close."
+            }
+        }
+    ]
+}
+</script>
+
+</body>
+</html>
