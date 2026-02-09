@@ -19,13 +19,13 @@
 
     <style>
         /* Hub Services Image Grid */
-        .nr-services-ecosystem { padding: 80px 0; background: var(--nr-ivory); }
+        .nr-services-ecosystem { padding: 80px 0; background: var(--nr-white); }
         .nr-services-ecosystem__container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
         .nr-services-ecosystem__header { text-align: center; max-width: 720px; margin: 0 auto 48px; }
         .nr-services-ecosystem__heading { font-size: clamp(28px, 4vw, 36px); font-weight: 700; color: var(--nr-navy); margin: 0 0 16px; line-height: 1.2; }
         .nr-services-ecosystem__grid { display: grid; grid-template-columns: repeat(1, 1fr); gap: 24px; }
         @media (min-width: 768px) { .nr-services-ecosystem__grid { grid-template-columns: repeat(2, 1fr); } }
-        @media (min-width: 1024px) { .nr-services-ecosystem__grid { grid-template-columns: repeat(3, 1fr); } }
+        @media (min-width: 1024px) { .nr-services-ecosystem__grid { grid-template-columns: repeat(3, 1fr); justify-content: center; } }
         .nr-services-ecosystem__card { background: var(--nr-white); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.06); transition: transform 0.3s ease, box-shadow 0.3s ease; }
         .nr-services-ecosystem__card:hover { transform: translateY(-4px); box-shadow: 0 8px 32px rgba(0,0,0,0.1); }
         .nr-services-ecosystem__card-image { aspect-ratio: 16/9; overflow: hidden; }
