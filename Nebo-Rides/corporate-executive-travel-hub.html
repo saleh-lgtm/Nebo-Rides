@@ -18,41 +18,6 @@
     <link rel="stylesheet" href="faq-section.css">
 
     <!-- Hub Page Inline Styles -->
-    <style>
-        /* Hub Services Image Grid */
-        .nr-services-ecosystem { padding: 80px 0; background: var(--nr-white); }
-        .nr-services-ecosystem__container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
-        .nr-services-ecosystem__header { text-align: center; max-width: 720px; margin: 0 auto 48px; }
-        .nr-services-ecosystem__heading { font-size: clamp(28px, 4vw, 36px); font-weight: 700; color: var(--nr-navy); margin: 0 0 16px; line-height: 1.2; }
-        .nr-services-ecosystem__grid { display: grid; grid-template-columns: repeat(1, 1fr); gap: 24px; }
-        @media (min-width: 768px) { .nr-services-ecosystem__grid { grid-template-columns: repeat(2, 1fr); } }
-        @media (min-width: 1024px) { .nr-services-ecosystem__grid { grid-template-columns: repeat(3, 1fr); justify-content: center; } }
-        .nr-services-ecosystem__card { background: var(--nr-white); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.06); transition: transform 0.3s ease, box-shadow 0.3s ease; }
-        .nr-services-ecosystem__card:hover { transform: translateY(-4px); box-shadow: 0 8px 32px rgba(0,0,0,0.1); }
-        .nr-services-ecosystem__card-image { aspect-ratio: 16/9; overflow: hidden; }
-        .nr-services-ecosystem__card-image img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease; }
-        .nr-services-ecosystem__card:hover .nr-services-ecosystem__card-image img { transform: scale(1.05); }
-        .nr-services-ecosystem__card-content { padding: 24px; }
-        .nr-services-ecosystem__card-title { font-size: 18px; font-weight: 600; color: var(--nr-navy); margin: 0 0 8px; }
-        .nr-services-ecosystem__card-desc { font-size: 14px; color: var(--nr-body); line-height: 1.6; margin: 0 0 16px; }
-        .nr-services-ecosystem__card-link { font-size: 14px; font-weight: 600; color: var(--nr-navy); text-decoration: none; display: inline-flex; align-items: center; gap: 6px; transition: gap 0.3s ease; }
-        .nr-services-ecosystem__card-link:hover { gap: 10px; }
-        .nr-services-ecosystem__card-link svg { width: 16px; height: 16px; }
-
-        .nr-services-advantages { padding: 80px 0; background: var(--nr-ivory); }
-        .nr-services-advantages__container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
-        .nr-services-advantages__header { text-align: center; max-width: 720px; margin: 0 auto 48px; }
-        .nr-services-advantages__heading { font-size: clamp(28px, 4vw, 36px); font-weight: 700; color: var(--nr-navy); margin: 0 0 16px; line-height: 1.2; }
-        .nr-services-advantages__intro { font-size: 16px; color: var(--nr-body); line-height: 1.6; margin: 0; }
-        .nr-services-advantages__grid { display: grid; grid-template-columns: repeat(1, 1fr); gap: 24px; }
-        @media (min-width: 768px) { .nr-services-advantages__grid { grid-template-columns: repeat(3, 1fr); } }
-        .nr-services-advantages__card { background: var(--nr-white); padding: 32px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); position: relative; transition: transform 0.3s ease, box-shadow 0.3s ease; }
-        .nr-services-advantages__card:hover { transform: translateY(-4px); box-shadow: 0 8px 32px rgba(0,0,0,0.1); }
-        .nr-services-advantages__card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: var(--nr-navy); border-radius: 12px 12px 0 0; }
-        .nr-services-advantages__card-number { width: 40px; height: 40px; background: var(--nr-navy); color: var(--nr-white); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: 600; margin-bottom: 20px; }
-        .nr-services-advantages__card-title { font-size: 18px; font-weight: 600; color: var(--nr-navy); margin: 0 0 12px; }
-        .nr-services-advantages__card-desc { font-size: 14px; color: var(--nr-body); line-height: 1.6; margin: 0; }
-    </style>
 </head>
 <body>
 <div class="nr-page">
